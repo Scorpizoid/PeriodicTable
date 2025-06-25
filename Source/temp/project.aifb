@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AIFBPROJECTFILE>
+  <APPLICATION NAME="PeriodicTable" UID="0x20026289" LANGUAGE="CPP" />
+  <DFRD MBM="C:\PeriodicTable\Koodi\bmp\periodictable.mbm">
+    <DFRDNAME>CRYSTAL</DFRDNAME>
+    <OUTPUTLOC OUTPUTDIR="C:\PeriodicTable\Koodi\group\" WORKINGDIR="C:\PeriodicTable\Koodi\temp\" />
+  </DFRD>
+  <CAPABILITIES NEWFILE="No" HIDDEN="No">
+    <EMBEDDABLE EMBED="NOT EMBEDDABLE" />
+  </CAPABILITIES>
+</AIFBPROJECTFILE>
+

@@ -1,0 +1,38 @@
+// InfoDialogs.RSS
+//
+//
+
+NAME VANA
+
+#include <eikon.rh>
+#include <eikcore.rsg>
+
+#include "InfoDialogs.hrh"
+
+RESOURCE RSS_SIGNATURE {  }
+
+/* Group 5 */
+RESOURCE TBUF r_vanadium_general { buf="Name: vanadium\nSymbol: V\nAtomic number: 23\nCategory: transition metals\nGroup: 5\nPeriod: 4\nBlock: d\nAtomic weight: 50.9415 g/mol\nElectrons per shell: 2, 8, 11, 2\nCAS number: 7440-62-2"; }
+RESOURCE TBUF r_vanadium_physical { buf="Phase: solid\nDensity: 6.0 kg/l (near room temperature)\nMelting point: 2183 K (1910 C, 3470 F)\nBoiling point: 3680 K (3407 C, 6165 F)"; }
+RESOURCE TBUF r_vanadium_atomic { buf="Crystal structure: cubic body centered\nOxidation states: 5, 4, 3, 2, 1\nElectronegativity: 1.63 (Pauling scale)"; }
+RESOURCE TBUF r_vanadium_name { buf="Comes from: Vanadis\nMeaning: a goddess in Scandinavian mythology,\n         because the element has beautiful\n         multicolored chemical compounds"; }
+RESOURCE TBUF r_vanadium_other { buf="- naturally occurs in about 65 different minerals\n  and is used mainly to produce certain alloys\n- is one of the 26 elements found in most living\n  organisms"; }
+RESOURCE TBUF r_vanadium_other2 { buf="- powdered metallic vanadium is a fire hazard, and\n  unless known otherwise, all vanadium compounds\n  should be considered highly toxic\n- the exposure level of vanadium which is likely to\n  cause permanent health damage or death is 35\n  mg/m3"; }
+RESOURCE TBUF r_niobium_general { buf="Name: niobium\nSymbol: Nb\nAtomic number: 41\nCategory: transition metals\nGroup: 5\nPeriod: 5\nBlock: d\nAtomic weight: 92.90638 g/mol\nElectrons per shell: 2, 8, 18, 12, 1\nCAS number: 7440-03-1"; }
+RESOURCE TBUF r_niobium_physical { buf="Phase: solid\nDensity: 8.57 kg/l (near room temperature)\nMelting point: 2750 K (2477 C, 4491 F)\nBoiling point: 5017 K (4744 C, 8571 F)"; }
+RESOURCE TBUF r_niobium_atomic { buf="Crystal structure: cubic body centered\nOxidation states: 5, 4, 3, 2\nElectronegativity: 1.6 (Pauling scale)"; }
+RESOURCE TBUF r_niobium_name { buf="Comes from: Niobe\nMeaning: the goddess of tears in Greek\n         mythology"; }
+RESOURCE TBUF r_niobium_other { buf="- begins to oxidize in air at 200 C\n- a few commercial producers still like to\n  refer to it as columbium"; }
+RESOURCE TBUF r_niobium_other2 { buf="- is a shiny, white, soft, and ductile metal,\n  and takes on a bluish tinge when exposed to\n  air at room temperatures for a long time"; }
+RESOURCE TBUF r_tantalum_general { buf="Name: tantalum\nSymbol: Ta\nAtomic number: 73\nCategory: transition metals\nGroup: 5\nPeriod: 6\nBlock: d\nAtomic weight: 180.94788 g/mol\nElectrons per shell: 2, 8, 18, 32, 11, 2\nCAS number: 7440-25-7"; }
+RESOURCE TBUF r_tantalum_physical { buf="Phase: solid\nDensity: 16.69 kg/l (near room temperature)\nMelting point: 3290 K (3017 C, 5463 F)\nBoiling point: 5731 K (5458 C, 9856 F)"; }
+RESOURCE TBUF r_tantalum_atomic { buf="Crystal structure: cubic body centered\nOxidation states: 5, 4, 3\nElectronegativity: 1.5 (Pauling scale)"; }
+RESOURCE TBUF r_tantalum_name { buf="Comes from: Tantalus\nMeaning: the father of the goddess Niobe\n         in Greek mythology"; }
+RESOURCE TBUF r_tantalum_other { buf="- many contemporary chemists believed niobium\n  and tantalum were the same elements until 1844\n- is dark, dense, ductile, very hard, easily\n  fabricated, and highly conductive of heat and\n  electricity"; }
+RESOURCE TBUF r_tantalum_other2 { buf="- is highly corrosion-resistant and occurs\n  naturally in the mineral tantalite\n- its main use today is in tantalum capacitors, but\n  it's also used in laboratory equipment"; }
+RESOURCE TBUF r_dubnium_general { buf="Name: dubnium\nSymbol: Db\nAtomic number: 105\nCategory: transition metals\nGroup: 5\nPeriod: 7\nBlock: d\nAtomic weight: [268] g/mol\nElectrons per shell: 2, 8, 18, 32, 32, 11, 2\nCAS number: 53850-35-4"; }
+RESOURCE TBUF r_dubnium_physical { buf="Phase: presumably solid\nDensity: unknown\nMelting point: unknown\nBoiling point: unknown"; }
+RESOURCE TBUF r_dubnium_atomic { buf="Crystal structure: unknown\nOxidation states: 5\nElectronegativity: unknown"; }
+RESOURCE TBUF r_dubnium_name { buf="Comes from: Dubna\nMeaning: the city that contains the Russian\n         Joint Institute for Nuclear Research\n         where the element was found"; }
+RESOURCE TBUF r_dubnium_other { buf="- its most stable isotope is dubnium-268 with a\n  half life of 28 hours"; }
+RESOURCE TBUF r_dubnium_other2 { buf="- before dubnium received its current name, some\n  candidates were hahnium (after the German\n  physicist Otto Hahn), nielsbohrium (after the\n  Danish nuclear physicist Niels Bohr), joliotium\n  (after the French physicist Frédéric Joliot-\n  Curie)\n- a fully synthetic element which is radioactive"; }

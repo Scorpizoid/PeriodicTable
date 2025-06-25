@@ -1,0 +1,50 @@
+// InfoDialogs.RSS
+//
+//
+
+NAME COPP
+
+#include <eikon.rh>
+#include <eikcore.rsg>
+
+#include "InfoDialogs.hrh"
+
+RESOURCE RSS_SIGNATURE {  }
+
+/* Group 11 */
+RESOURCE TBUF r_copper_general { buf="Name: copper\nSymbol: Cu\nAtomic number: 29\nCategory: transition metals\nGroup: 11\nPeriod: 4\nBlock: d\nAtomic weight: 63.546 g/mol\nElectrons per shell: 2, 8, 18, 1\nCAS number: 7440-50-8"; }
+RESOURCE TBUF r_copper_physical { buf="Phase: solid\nDensity: 8.94 kg/l (near room temperature)\nMelting point: 1357.77 K (1084.62 C, 1984.32 F)\nBoiling point: 2835 K (2562 C, 4643 F)"; }
+RESOURCE TBUF r_copper_atomic { buf="Crystal structure: face centered cubic\nOxidation states: 1, 2, 3, 4\nElectronegativity: 1.90 (Pauling scale)"; }
+RESOURCE TBUF r_copper_name { buf="Comes from: Cyprium\nMeaning: 'metal of Cyprus', as it was principally\n         mined in Cyprus, though later shortened\n         to Cuprum"; }
+RESOURCE TBUF r_copper_other { buf="- is a ductile metal with very high thermal and\n  electrical conductivity\n- has played a significant part in the history of\n  mankind"; }
+RESOURCE TBUF r_copper_other2 { buf="- is used as a thermal conductor, an electrical\n  conductor, a building material, and a constituent\n  of various metal alloys\n- in animals, including humans, it is found widely\n  in tissues, with concentration in liver, muscle,\n  and bone"; }
+RESOURCE TBUF r_copper_other3 { buf="- copper 2+ ions are soluble in water, where they\n  function at low concentration as bacteriostatic\n  substances and fungicides"; }
+RESOURCE TBUF r_silver_general { buf="Name: silver\nSymbol: Ag\nAtomic number: 47\nCategory: transition metals\nGroup: 11\nPeriod: 5\nBlock: d\nAtomic weight: 107.8682 g/mol\nElectrons per shell: 2, 8, 18, 18, 1\nCAS number: 7440-22-4"; }
+RESOURCE TBUF r_silver_physical { buf="Phase: solid\nDensity: 10.49 kg/l (near room temperature)\nMelting point: 1234.93 K (961.78 C, 1763.2 F)\nBoiling point: 2435 K (2162 C, 3924 F)"; }
+RESOURCE TBUF r_silver_atomic { buf="Crystal structure: face centered cubic\nOxidation states: 1, 2, 3\nElectronegativity: 1.93 (Pauling scale)"; }
+RESOURCE TBUF r_silver_name { buf="Comes from: seolfor\nMeaning: 'silver', although the symbol comes from\n         the word argentum, meaning white or\n         shining"; }
+RESOURCE TBUF r_silver_other { buf="- has the highest electrical conductivity of any\n  element and the highest thermal conductivity of\n  any metal\n- most silver is produced as a by-product of\n  copper, gold, lead, and zinc refining"; }
+RESOURCE TBUF r_silver_other2 { buf="- has been known since ancient times and has long\n  been valued as a precious metal, used to make\n  ornaments, jewelry, high-value tableware,\n  utensils (hence the term silverware), and\n  currency coins"; }
+RESOURCE TBUF r_silver_other3 { buf="- today, silver metal is used in electrical\n  contacts and conductors, in mirrors and in\n  catalysis of chemical reactions\n- is stable in pure air and water, but tarnishes\n  when it is exposed to air or water containing\n  ozone or hydrogen sulfide to form a black"; }
+RESOURCE TBUF r_silver_other4 { buf="  layer of silver sulfide which can be cleaned\n  off with dilute hydrochloric acid\n- plays no known natural biological role in humans,\n  and possible health effects of silver are a\n  subject of dispute. Silver itself is not toxic\n  but most silver salts are, and some may be\n  carcinogenic"; }
+RESOURCE TBUF r_gold_general { buf="Name: gold\nSymbol: Au\nAtomic number: 79\nCategory: transition metals\nGroup: 11\nPeriod: 6\nBlock: d\nAtomic weight: 196.966569 g/mol\nElectrons per shell: 2, 8, 18, 32, 18, 1\nCAS number: 7440-57-5"; }
+RESOURCE TBUF r_gold_physical { buf="Phase: solid\nDensity: 19.3 kg/l (near room temperature)\nMelting point: 1337.33 K (1064.18 C, 1947.52 F)\nBoiling point: 3129 K (2856 C, 5173 F)"; }
+RESOURCE TBUF r_gold_atomic { buf="Crystal structure: face centered cubic\nOxidation states: -1, 1, 2, 3, 4, 5\nElectronegativity: 2.54 (Pauling scale)"; }
+RESOURCE TBUF r_gold_name { buf="Comes from: Aurum\nMeaning: glowing dawn, due to its color"; }
+RESOURCE TBUF r_gold_other { buf="- occurs as nuggets or grains in rocks, in veins\n  and in alluvial deposits\n- is dense, soft, shiny and the most malleable and\n  ductile pure metal known\n- dissolves in mercury, forming amalgam alloys, but\n  does not react with it"; }
+RESOURCE TBUF r_gold_other2 { buf="- a single gram can be beaten into a sheet of one\n  square meter, or an ounce into 300 square feet\n- modern uses include dentistry and electronics,\n  where gold has traditionally found use because of\n  its good resistance to oxidative\n  corrosion"; }
+RESOURCE TBUF r_gold_other3 { buf="- is non-toxic and non-irritating when ingested and\n  is sometimes used\n- is also a component of the alcoholic drinks\n  Goldschläger, Gold Strike, and Goldwasser\n- gold is approved as a food additive in the EU"; }
+RESOURCE TBUF r_roentgenium_general { buf="Name: roentgenium\nSymbol: Rg\nAtomic number: 111\nCategory: transition metals\nGroup: 11\nPeriod: 7\nBlock: d\nAtomic weight: [280] g/mol\nElectrons per shell: 2, 8, 18, 32, 32, 17, 2\nCAS number: 54386-24-2"; }
+RESOURCE TBUF r_roentgenium_physical { buf="Phase: presumably a solid\nDensity: unknown\nMelting point: unknown\nBoiling point: unknown"; }
+RESOURCE TBUF r_roentgenium_atomic { buf="Crystal structure: unknown\nOxidation states: 3 (expected)\nElectronegativity: unknown"; }
+RESOURCE TBUF r_roentgenium_name { buf="Comes from: Röntgen\nMeaning: the German physicist Wilhelm Conrad\n         Röntgen"; }
+RESOURCE TBUF r_roentgenium_other { buf="- is a synthetic element\n- its most stable known isotope has a mass of 283\n  amu and an estimated half-life of ten minutes"; }
+RESOURCE TBUF r_roentgenium_other2 { buf="- was found by Peter Armbruster, Gottfried\n  Münzenberg, and their team working at the\n  Gesellschaft für Schwerionenforschung (GSI) in\n  Darmstadt, Germany on December 8, 1994, but the\n  IUPAC/IUPAP Joint Working Party (JWP)\n  concluded that there was insufficient evidence\n  for the discovery at that moment in time"; }
+RESOURCE TBUF r_roentgenium_other3 { buf="- the GSI team repeated their experiment in 2000\n  and detected a further 3 atoms, and in their 2003\n  report, the JWP decided that the GSI team should\nbe acknowledged as the discoverers"; }
+RESOURCE TBUF r_copernicium_general { buf="Name: copernicium\nSymbol: Cn\nAtomic number: 112\nCategory: transition metals\nGroup: 12\nPeriod: 7\nBlock: d\nAtomic weight: [285] g/mol\nElectrons per shell: 2, 8, 18, 32, 32, 18, 2\nCAS number: 54084-26-3"; }
+RESOURCE TBUF r_copernicium_physical { buf="Phase: presumably a liquid\nDensity: unknown\nMelting point: unknown\nBoiling point: unknown"; }
+RESOURCE TBUF r_copernicium_atomic { buf="Crystal structure: unknown\nOxidation states: 2 (expected)\nElectronegativity: unknown"; }
+RESOURCE TBUF r_copernicium_name { buf="Comes from: Copernicus\nMeaning: the astronomer Nicolaus Copernicus\n"; }
+RESOURCE TBUF r_copernicium_other { buf="- is a synthetic element\n- its most stable known isotope has a half-life of\n  30 seconds"; }
+RESOURCE TBUF r_copernicium_other2 { buf="- other sggested names for the elemtn was\n  "copernicum", "copernium", and "kopernikium" (Kp)"; }
+RESOURCE TBUF r_copernicium_other3 { buf="- the current name was officially approved on\n  19 February 2010, the 537th anniversary of Copernicus' birth"; }

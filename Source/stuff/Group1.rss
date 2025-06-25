@@ -1,0 +1,51 @@
+// InfoDialogs.RSS
+//
+//
+
+NAME HYDR
+
+#include <eikon.rh>
+#include <eikcore.rsg>
+
+
+#include "InfoDialogs.hrh"
+
+RESOURCE RSS_SIGNATURE {  }
+
+RESOURCE TBUF r_hydrogen_general { buf="Name: hydrogen\nSymbol: H\nAtomic number: 1\nCategory: nonmetals\nGroup: 1\nPeriod: 1\nBlock: s\nAtomic weight: 1.00794 g/mol\nElectrons per shell: 1\nCAS number: 1333-74-0"; }
+RESOURCE TBUF r_hydrogen_physical { buf="Phase: gas\nDensity: 0.08988 g/l (in (0 C, 101.325 kPa)\nMelting point: 14.01 K (-259.14 C, -434.45 F)\nBoiling point: 20.28 K (-252.87 C, -423.17 F)"; }
+RESOURCE TBUF r_hydrogen_atomic { buf="Crystal structure: hexagonal\nOxidation states: 1, -1\nElectronegativity: 2.20 (Pauling scale)"; }
+RESOURCE TBUF r_hydrogen_name { buf="Comes from: hydrogenes\nMeaning: water creator as water is produced when\n         hydrogen is burned"; }
+RESOURCE TBUF r_hydrogen_other { buf="- approximately 75% of the universe's elemental\n  mass constitutes of hydrogen\n- the lightest element of all\n- hydrogen gas is highly flammable and burns\n  at concentrations of 4% or above"; }
+RESOURCE TBUF r_lithium_general { buf="Name: lithium\nSymbol: Li\nAtomic number: 3\nCategory: alkali metals\nGroup: 1\nPeriod: 2\nBlock: s\nAtomic weight: 6.941 g/mol\nElectrons per shell: 2, 1\nCAS number: 7439-93-2"; }
+RESOURCE TBUF r_lithium_physical { buf="Phase: solid\nDensity: 0.534 kg/l (near room temperature)\nMelting point: 453.69 K (180.54 C, 356.97 F)\nBoiling point: 1615 K (1342 C, 2448 F)"; }
+RESOURCE TBUF r_lithium_atomic { buf="Crystal structure: body centered cubic\nOxidation states: 1\nElectronegativity: 0.98 (Pauling scale)"; }
+RESOURCE TBUF r_lithium_name { buf="Comes from: lithos\nMeaning: stone, as it was discovered in petalite\n         stone (lithium aluminium silicate)"; }
+RESOURCE TBUF r_lithium_other { buf="- lithium salts give a bright red color in\n  flame when burned\n- floats on water\n- can be cut with a knife\n- is flammable and potentially explosive when\n  exposed to air and especially water"; }
+RESOURCE TBUF r_sodium_general { buf="Name: sodium or natrium\nSymbol: Na\nAtomic number: 11\nCategory: alkali metals\nGroup: 1\nPeriod: 3\nBlock: s\nAtomic weight: 22.98976928 g/mol\nElectrons per shell: 2, 8, 1\nCAS number: 7440-23-5"; }
+RESOURCE TBUF r_sodium_physical { buf="Phase: solid\nDensity: 0.968 kg/l (near room temperature)\nMelting point: 370.87 K (97.72 C, 207.9 F)\nBoiling point: 1156 K (883 C, 1621 F)"; }
+RESOURCE TBUF r_sodium_atomic { buf="Crystal structure: cubic body centered\nOxidation states: 1\nElectronegativity: 0.93 (Pauling scale)"; }
+RESOURCE TBUF r_sodium_name { buf="Sodium:\nComes from: suda\nMeaning: headache, as the headache curing\n  properties of sodium carbonate or soda\n  were well known in early times\nNatrium:\nComes from: natron\nMeaning: a natural mineral salt whose primary\n         ingredient is hydrated sodium carbo-\n         nate"; }
+RESOURCE TBUF r_sodium_other { buf="- appears always as chemical compounds in natu-\n  re, never in its elemental form\n- potentially explosive in water; the reaction\n  temperature sets the forming hydrogen gas in\n  flames\n- a soft, light metal"; }
+RESOURCE TBUF r_potassium_general { buf="Name: potassium or kalium\nSymbol: K\nAtomic number: 19\nCategory: alkali metals\nGroup: 1\nPeriod: 4\nBlock: s\nAtomic weight: 39.0983 g/mol\nElectrons per shell: 2, 8, 8, 1\nCAS number: 7440-09-7"; }
+RESOURCE TBUF r_potassium_physical { buf="Phase: solid\nDensity: 0.89 kg/l (near room temperature)\nMelting point: 336.53 K (63.38 C, 146.08 F)\nBoiling point: 1032 K (759 C, 1398 F)"; }
+RESOURCE TBUF r_potassium_atomic { buf="Crystal structure: cubic body centered\nOxidation states: 1\nElectronegativity: 0.82 (Pauling scale)"; }
+RESOURCE TBUF r_potassium_name { buf="Potassium:\nComes from: potash\nMeaning: potassium\ was first isolated from\n         potash\nKalium:\nComes from: al-qaly\nMeaning: the calcined ashes, referring to the\n         original source of alkaline substance"; }
+RESOURCE TBUF r_potassium_other { buf="- the second lightest elemental metal after\n  lithium\n- floats on water\n- can be cut with a knife\n- like other alkali metals it reacts violently\n  with water, forming hydrogen gas"; }
+RESOURCE TBUF r_rubidium_general { buf="Name: rubidium\nSymbol: Rb\nAtomic number: 37\nCategory: alkali metals\nGroup: 1\nPeriod: 5\nBlock: s\nAtomic weight: 85.4678 g/mol\nElectrons per shell: 2, 8, 18, 8, 1\nCAS number: 7440-17-7"; }
+RESOURCE TBUF r_rubidium_physical { buf="Phase: solid\nDensity: 1.532 kg/l (near room temperature)\nMelting point: 312.46 K (39.31 C, 102.76 F)\nBoiling point: 961 K (688 C, 1270 F)"; }
+RESOURCE TBUF r_rubidium_atomic { buf="Crystal structure: cubic body centered\nOxidation states: 1\nElectronegativity: 0.82 (Pauling scale)"; }
+RESOURCE TBUF r_rubidium_name { buf="Comes from: rubidus\nMeaning: deepest red, as it was discovered in\n         the mineral lepidolite through the use\n         of a spectroscope"; }
+RESOURCE TBUF r_rubidium_other { buf="- is easily ionized, so it has been considered\n  for use in ion engines for space vehicles\n- was used in the discovery of Bose-Einstein\n  condensate, which is a state of matter"; }
+RESOURCE TBUF r_caesium_general { buf="Name: caesium or cesium\nSymbol: Cs\nAtomic number: 55\nCategory: alkali metals\nGroup: 1\nPeriod: 6\nBlock: s\nAtomic weight: 132.9054519 g/mol\nElectrons per shell: 2, 8, 18, 18, 8, 1\nCAS number: 7440-46-2"; }
+RESOURCE TBUF r_caesium_physical { buf="Phase: solid\nDensity: 1.93 kg/l (near room temperature)\nMelting point: 301.59 K (28.44 C, 83.19 F)\nBoiling point: 944 K (671 C, 1240 F)"; }
+RESOURCE TBUF r_caesium_atomic { buf="Crystal structure: body centered cubic\nOxidation states: 1\nElectronegativity: 0.79 (Pauling scale)"; }
+RESOURCE TBUF r_caesium_name { buf="Comes from: caesius\nMeaning: blueish grey, as its identification\n         based upon the bright blue lines in\n         its spectrum"; }
+RESOURCE TBUF r_caesium_other { buf="- it was the first element discovered by\n  spectrum analysis\n- is most notably used in atomic clocks\n- the most widespread use of caesium today\n  is in caesium formate-based drilling fluids\n  for the oil industry"; }
+RESOURCE TBUF r_caesium_other2 { buf="- radioactive isotopes of caesium are used in the\n  medical field to treat certain types of cancer"; }
+RESOURCE TBUF r_francium_general { buf="Name: francium\nSymbol: Fr\nAtomic number: 87\nCategory: alkali metals\nGroup: 1\nPeriod: 7\nBlock: s\nAtomic weight: [223] g/mol\nElectrons per shell: 2, 8, 18, 32, 18, 8, 1\nCAS number: 7440-73-5"; }
+RESOURCE TBUF r_francium_physical { buf="Phase: solid\nDensity: 1.87 kg/l (near room temperature)\nMelting point: 300 K (27 C, 80 F)\nBoiling point: 950 K (677 C, 1250 F)"; }
+RESOURCE TBUF r_francium_atomic { buf="Crystal structure: cubic body centered\nOxidation states: 1\nElectronegativity: 0.7 (Pauling scale)"; }
+RESOURCE TBUF r_francium_name { buf="Comes from: francium\nMeaning: France, the discoverer's homeland"; }
+RESOURCE TBUF r_francium_other { buf="- all isotopes of francium decay into either\n  astatine, radium, or radon\n- was formerly known as eka-caesium and actinium\n  K\n- as little as 20-30 g of francium-223 exists\n  at any given time throughout the Earth's crust "; }
+RESOURCE TBUF r_francium_other2 { buf=" - is the least stable of the naturally occurring\n  elements: its most stable isotope, francium-,\n  233 has a half-life of only 22 minutes\n- has the lowest electronegativity of all the\n  known elements at 0.7 on the Pauling scale"; }

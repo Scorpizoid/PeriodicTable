@@ -1,0 +1,53 @@
+// InfoDialogs.RSS
+//
+//
+
+NAME NITR
+
+#include <eikon.rh>
+#include <eikcore.rsg>
+
+#include "InfoDialogs.hrh"
+
+RESOURCE RSS_SIGNATURE {  }
+
+/* Group 15 */
+RESOURCE TBUF r_nitrogen_general { buf="Name: nitrogen\nSymbol: N\nAtomic number: 7\nCategory: nonmetals\nGroup: 15\nPeriod: 2\nBlock: p\nAtomic weight: 14.0067 g/mol\nElectrons per shell: 2, 5\nCAS number: 7727-37-9"; }
+RESOURCE TBUF r_nitrogen_physical { buf="Phase: gas\nDensity: 1.251 g/l (0 C, 101.325 kPa)\nMelting point: 63.153 K (-210.00 C, -346.00 F)\nBoiling point: 77.36 K (-195.79 C, -320.3342 F)"; }
+RESOURCE TBUF r_nitrogen_atomic { buf="Crystal structure: hexagonal\nOxidation states: 5, 4, 3, 2, 1, -1, -3\nElectronegativity: 3.04 (Pauling scale)"; }
+RESOURCE TBUF r_nitrogen_name { buf="Comes from: nitrogenium\nMeaning: the Latin word for 'saltpetre' (nitrum)\n         and 'forming' (genes) - forms potassium\n         nitrate"; }
+RESOURCE TBUF r_nitrogen_other { buf="- is a colorless, odorless, tasteless and mostly\n  inert diatomic gas at standard conditions\n- constitutes 78% by volume of Earth's atmosphere\n- many industrially important compounds, such as\n  ammonia, nitric acid, organic nitrates\n  (propellants and explosives), and cyanides,\n  contain nitrogen"; }
+RESOURCE TBUF r_nitrogen_other2 { buf="- is created by fusion processes in stars, and is\n  estimated to be the 7th most abundant chemical\n  element by mass in the universe\n- is a constituent element of amino acids and thus\n  of proteins, and of nucleic acids (DNA and RNA)"; }
+RESOURCE TBUF r_nitrogen_other3 { buf="- is used widely as an industrial gas: e.g. to\n  preserve the freshness of packaged or bulk foods,\n  in ordinary incandescent light bulbs on top of\n  liquid explosives and in the manufacturing of\n  stainless steel"; }
+RESOURCE TBUF r_nitrogen_other4 { buf="- rapid release of nitrogen gas into an enclosed\n  space can displace oxygen, and therefore\n  represents an asphyxiation hazard"; }
+RESOURCE TBUF r_phosphorus_general { buf="Name: phosphorus\nSymbol: P\nAtomic number: 15\nCategory: nonmetals\nGroup: 15\nPeriod: 3\nBlock: p\nAtomic weight: 30.973762 g/mol\nElectrons per shell: 2, 8, 5\nCAS number: 7723-14-0"; }
+RESOURCE TBUF r_phosphorus_physical { buf="Phase: solid\nDensity: 1.823 kg/l (white) - near room temperature\n        2.34 kg/l (red) - near room temperature\n        2.69 kg/l (black) - near room temperature\nMelting point: 317.3 K (44.2 C, 111.6 F) (white)\nBoiling point: 550 K (277 C, 531 F) (white)"; }
+RESOURCE TBUF r_phosphorus_atomic { buf="Crystal structure: body-centered cubic (white),\n                  orthorhombic (black)\nOxidation states: 5, 4, 3, 2, 1, -3\nElectronegativity: 2.19 (Pauling scale)"; }
+RESOURCE TBUF r_phosphorus_name { buf="Comes from: Phosphorus\nMeaning: in Ancient Greece it was the name of the\n         planet Venus, and is derived from words\n         which translate as 'light carrier'"; }
+RESOURCE TBUF r_phosphorus_other { buf="- is commonly found in inorganic phosphate rocks\n- due to its high reactivity, phosphorus is never\n  found as a free element in nature on Earth\n- is a component of DNA, RNA, ATP, and also the\n  phospholipids which form all cell membranes"; }
+RESOURCE TBUF r_phosphorus_other2 { buf="- the most important commercial use of phosphorus-\n  based chemicals is the production of fertilizers\n- is also widely used in explosives, nerve agents,\n  friction matches, fireworks, pesticides,\n  toothpaste and detergents\n- emits a faint glow upon exposure to oxygen"; }
+RESOURCE TBUF r_phosphorus_other3 { buf="- a wide range of organophosphorus compounds are\n  used for their toxicity to certain organisms as\n  pesticides (herbicides, insecticides, fungicides,\n  etc.) and weaponized as nerve agents\n- chronic white phosphorus poisoning leads to\n  necrosis of the jaw called 'phossy jaw'"; }
+RESOURCE TBUF r_phosphorus_other4 { buf="- the white phosphorus allotrope should be kept\n  under water at all times as it presents a\n  significant fire hazard due to its extreme\n  reactivity with atmospheric oxygen, and it should\n  only be manipulated with forceps since contact\n  with skin can cause severe burns"; }
+RESOURCE TBUF r_arsenic_general { buf="Name: arsenic\nSymbol: As\nAtomic number: 33\nCategory: metalloids\nGroup: 15\nPeriod: 4\nBlock: p\nAtomic weight: 74.92160 g/mol\nElectrons per shell: 2, 8, 8, 5\nCAS number: 7440-38-2"; }
+RESOURCE TBUF r_arsenic_physical { buf="Phase: solid\nDensity: 5.727 kg/l (near room temperature)\nMelting point: 1090 K (817 C, 1503 F)\nBoiling point: 887 K (617 C, 1137 F)"; }
+RESOURCE TBUF r_arsenic_atomic { buf="Crystal structure: rhombohedral\nOxidation states: 5, 3, 1, -3\nElectronegativity: 2.18 (Pauling scale)"; }
+RESOURCE TBUF r_arsenic_name { buf="Comes from: zarnikh\nMeaning: the Persian word for 'yellow orpiment'\n         (mineral)"; }
+RESOURCE TBUF r_arsenic_other { buf="- is a notoriously poisonous metalloid that has\n  many allotropic forms: yellow (molecular non-\n  metallic) and several black and grey forms\n  (metalloids) are a few that are seen\n- arsenic and its compounds are used as pesticides,\n  herbicides, insecticides and various alloys"; }
+RESOURCE TBUF r_arsenic_other2 { buf="- when ingested, arsenic disrupts ATP production\n  through several mechanisms\n- elemental arsenic and arsenic compounds are\n  classified as 'toxic' and 'dangerous for the\n  environment' in the European Union\n- is more commonly found as arsenide and arsenate\n  compounds"; }
+RESOURCE TBUF r_arsenic_other3 { buf="- a very popular murder chemical"; }
+RESOURCE TBUF r_antimony_general { buf="Name: antimony\nSymbol: Sb\nAtomic number: 51\nCategory: metalloids\nGroup: 15\nPeriod: 5\nBlock: p\nAtomic weight: 121.760 g/mol\nElectrons per shell: 2, 8, 18, 18, 5\nCAS number: 7440-36-0"; }
+RESOURCE TBUF r_antimony_physical { buf="Phase: solid\nDensity: 6.697 kg/l (near room temperature)\nMelting point: 903.78 K (630.63 C, 1167.13 F)\nBoiling point: 1860 K (1587 C, 2889 F)"; }
+RESOURCE TBUF r_antimony_atomic { buf="Crystal structure: rhombohedral\nOxidation states: -3, 3, 5\nElectronegativity: 2.05 (Pauling scale)"; }
+RESOURCE TBUF r_antimony_name { buf="Comes from: antimonium\nMeaning: the Latin word for 'monk-killer', as the\n         early alchemists were monks, and antimony\n         is poisonous"; }
+RESOURCE TBUF r_antimony_other { buf="- the symbol Sb comes from the Latin word Stibium\n  which means 'mark'\n- has four allotropic forms\n- the stable form of antimony is a blue-white\n  metalloid, and the yellow and the black antimony\n  are unstable non-metals"; }
+RESOURCE TBUF r_antimony_other2 { buf="- is used in flame-proofing, paints, ceramics,\n  enamels, a wide variety of alloys, electronics,\n  and rubber\n- is a silvery white, brittle, fusible, crystalline\n  solid that exhibits poor electrical and heat\n  conductivity properties and vaporizes at low\n  temperatures"; }
+RESOURCE TBUF r_antimony_other3 { buf="- antimony and many of its compounds are toxic -\n  clinically, antimony poisoning is very similar to\n  arsenic poisoning\n- was used in Biblical times as medicine, and in\n  Islamic/Pre-Islamic times as a cosmetic"; }
+RESOURCE TBUF r_bismuth_general { buf="Name: bismuth\nSymbol: Bi\nAtomic number: 83\nCategory: poor metals\nGroup: 15\nPeriod: 6\nBlock: p\nAtomic weight: 208.98040 g/mol\nElectrons per shell: 2, 8, 18, 32, 18, 5\nCAS number: 7440-69-9"; }
+RESOURCE TBUF r_bismuth_physical { buf="Phase: solid\nDensity: 9.78 kg/l (near room temperature)\nMelting point: 544.7 K (271.5 C, 520.7 F)\nBoiling point: 1837 K (1564 C, 2847 F)"; }
+RESOURCE TBUF r_bismuth_atomic { buf="Crystal structure: rhombohedral\nOxidation states: 3, 5\nElectronegativity: 2.02 (Pauling scale)"; }
+RESOURCE TBUF r_bismuth_name { buf="Comes from: Wismuth\nMeaning: the German word for 'white mass'"; }
+RESOURCE TBUF r_bismuth_other { buf="- a heavy, brittle, white crystalline trivalent\n  poor metal which has a pink tinge and chemically\n  resembles arsenic and antimony\n- is the most naturally diamagnetic, and only\n  mercury has a lower thermal conductivity"; }
+RESOURCE TBUF r_bismuth_other2 { buf="- is generally considered to be the last naturally\n  occurring stable, non-radioactive element on the\n  periodic table, although it is actually slightly\n  radioactive, with an extremely long half-life:\n  1.9 x 10^19 years\n- bismuth compounds are used in cosmetics,\n  medicines, and in medical procedures"; }
+RESOURCE TBUF r_bismuth_other3 { buf="- as the toxicity of lead has become more apparent\n  in recent years, alloy uses for bismuth metal as\n  a replacement for lead have become\n  an increasing part of bismuth's commercial\n  importance\n- is about twice as abundant as gold in the\n  Earth's crust"; }
+RESOURCE TBUF r_bismuth_other4 { buf="- is not known to be toxic, compared to its\n  periodic table neighbours (lead, antimony, and\n  polonium), although some compounds (including\n  bismuth chloride due to its corrosive acidity)\n  are toxic and should be handled with care"; }
+RESOURCE TBUF r_bismuth_other5 { buf="- overexposure to bismuth can result in the\n  formation of a black deposit on the gingiva,\n  known as a bismuth line\n- is usually produced as a byproduct of the\n  processing of other metal ores, especially lead,\n  tungsten, tin, copper, and also silver\n  (indirectly) or other metallic elements"; }
