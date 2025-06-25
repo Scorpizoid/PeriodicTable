@@ -1,0 +1,1235 @@
+#include "PeriodicTable.h"
+
+
+			// Check for key presses
+TKeyResponse CExampleAppView::OfferKeyEventL(const TKeyEvent& aKeyEvent,TEventCode aType) 
+    { 
+    TInt code=aKeyEvent.iCode;
+			// Create an instance of the CExampleAppView class so we can
+			// use the CmdLaunchModifiedDialog() function
+    CleanupStack::PushL(example);
+    TUint8 yMovement = 19;
+    TUint8 xMovement = 25;
+    TInt xValueOfGroupI = 6;
+    TInt xValueOfGroupII = 31;
+    TInt xValueOfGroupIII = 56;
+    TInt xValueOfGroupIV = 81;
+    TInt xValueOfGroupV = 106;
+    TInt xValueOfGroupVI = 131;
+    TInt xValueOfGroupVII = 156;
+    TInt xValueOfGroupVIII = 181;
+    TInt xValueOfGroupIX = 206;
+    TInt xValueOfGroupX = 231;
+    TInt xValueOfGroupXI = 256;
+    TInt xValueOfGroupXII = 281;
+    TInt xValueOfGroupXIII = 306;
+    TInt xValueOfGroupXIV = 331;
+    TInt xValueOfGroupXV = 356;
+    TInt xValueOfGroupXVI = 381;
+    TInt xValueOfGroupXVII = 406;
+    TInt xValueOfGroupXVIII = 431;
+
+    TInt yValueOfPeriodI = 10;
+    TInt yValueOfPeriodII = 29;
+    TInt yValueOfPeriodIII = 48;
+    TInt yValueOfPeriodIV = 67;
+    TInt yValueOfPeriodV = 86;
+    TInt yValueOfPeriodVI = 105;
+    TInt yValueOfPeriodVII = 124;
+    TInt yValueOfPeriodLanthanides = 152;
+    TInt yValueOfPeriodActinides = 171;
+
+    switch (code) 
+        { 
+    case EKeyDownArrow:
+		y = y + yMovement;
+			// In case the cursor goes off the table (in the I group)
+		if (x == xValueOfGroupI && (y > yValueOfPeriodVII))
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the II group)
+		if (x == xValueOfGroupII && (y > yValueOfPeriodVII))
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the III group)
+		if (x == xValueOfGroupIII && (y > yValueOfPeriodV))
+		{
+			y = yValueOfPeriodLanthanides;
+			x = xValueOfGroupIV;
+		}
+			// In case the cursor goes off the table (in the IV group)
+		if (x == xValueOfGroupIV && (y > yValueOfPeriodVII && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - lanthanum
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the V group)
+		if (x == xValueOfGroupV && (y > yValueOfPeriodVII && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - cerium
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the VI group)
+		if (x == xValueOfGroupVI && (y > yValueOfPeriodVII && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - praseodymium
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the VII group)
+		if (x == xValueOfGroupVII && (y > yValueOfPeriodVII && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - neodymium
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the VIII group)
+		if (x == xValueOfGroupVIII && (y > yValueOfPeriodVII && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - promethium
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the IX group)
+		if (x == xValueOfGroupIX && (y > yValueOfPeriodVII && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - samarium
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the X group)
+		if (x == xValueOfGroupX && (y > yValueOfPeriodVII && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - europium
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the XI group)
+		if (x == xValueOfGroupXI && (y > yValueOfPeriodVII && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - gadolinium
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the XII group)
+		if (x == xValueOfGroupXII && (y > yValueOfPeriodVI && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - terbium
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the XIII group)
+		if (x == xValueOfGroupXIII && (y > yValueOfPeriodVI && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - dysprosium
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the XIV group)
+		if (x == xValueOfGroupXIV && (y > yValueOfPeriodVI && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - holmium
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the XV group)
+		if (x == xValueOfGroupXV && (y > yValueOfPeriodVI && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - erbium
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the XVI group)
+		if (x == xValueOfGroupXVI && (y > yValueOfPeriodVI && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - thulium
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the XVII group)
+		if (x == xValueOfGroupXVII && (y > yValueOfPeriodVI && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - ytterbium
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the XVIII group)
+		if (x == xValueOfGroupXVIII && (y > yValueOfPeriodVI && y < yValueOfPeriodLanthanides))
+		{
+			// Move to the lanthanides - lutetium
+			y = yValueOfPeriodLanthanides;
+		}
+			// In case the cursor goes off the table (in the Actinide I group)
+		if (x == xValueOfGroupIV && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the Actinide II group)
+		if (x == xValueOfGroupV && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the Actinide III group)
+		if (x == xValueOfGroupVI && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the Actinide IV group)
+		if (x == xValueOfGroupVII && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the Actinide V group)
+		if (x == xValueOfGroupVIII && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the Actinide VI group)
+		if (x == xValueOfGroupIX && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the Actinide VII group)
+		if (x == xValueOfGroupX && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the Actinide VIII group)
+		if (x == xValueOfGroupXI && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the Actinide IX group)
+		if (x == xValueOfGroupXII && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the Actinide X group)
+		if (x == xValueOfGroupXIII && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the Actinide XI group)
+		if (x == xValueOfGroupXIV && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the Actinide XII group)
+		if (x == xValueOfGroupXV && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the Actinide XIII group)
+		if (x == xValueOfGroupXVI && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the Actinide XIV group)
+		if (x == xValueOfGroupXVII && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+			// In case the cursor goes off the table (in the Actinide XV group)
+		if (x == xValueOfGroupXVIII && y > yValueOfPeriodActinides)
+		{
+			y = y - yMovement;
+		}
+		firstrun = 0;
+		CCoeControl::DrawNow();
+		break;
+    case EKeyUpArrow:
+		y = y - yMovement;
+			// In case the cursor goes off the table (in the I group)
+		if (x == xValueOfGroupI && (y < yValueOfPeriodI))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the II group)
+		if (x == xValueOfGroupII && (y < yValueOfPeriodII))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the III group)
+		if (x == xValueOfGroupIII && (y < yValueOfPeriodIV))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the IV group)
+		if (x == xValueOfGroupIV && (y < yValueOfPeriodIV))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the V group)
+		if (x == xValueOfGroupV && (y < yValueOfPeriodIV))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the VI group)
+		if (x == xValueOfGroupVI && (y < yValueOfPeriodIV))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the VII group)
+		if (x == xValueOfGroupVII && (y < yValueOfPeriodIV))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the VIII group)
+		if (x == xValueOfGroupVIII && (y < yValueOfPeriodIV))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the IX group)
+		if (x == xValueOfGroupIX && (y < yValueOfPeriodIV))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the X group)
+		if (x == xValueOfGroupX && (y < yValueOfPeriodIV))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the XI group)
+		if (x == xValueOfGroupXI && (y < yValueOfPeriodIV))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the XII group)
+		if (x == xValueOfGroupXII && (y < yValueOfPeriodIV))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the XIII group)
+		if (x == xValueOfGroupXIII && (y < yValueOfPeriodII))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the XIV group)
+		if (x == xValueOfGroupXIV && (y < yValueOfPeriodII))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the XV group)
+		if (x == xValueOfGroupXV && (y < yValueOfPeriodII))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the XVI group)
+		if (x == xValueOfGroupXVI && (y < yValueOfPeriodII))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the XVII group)
+		if (x == xValueOfGroupXVII && (y < yValueOfPeriodII))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the XVIII group)
+		if (x == xValueOfGroupXVIII && (y < yValueOfPeriodI))
+		{
+			y = y + yMovement;
+		}
+			// In case the cursor goes off the table (in the Lanth I group)
+		if (x == xValueOfGroupIV && (y < yValueOfPeriodLanthanides && y > yValueOfPeriodVII))
+		{
+			y = yValueOfPeriodVII;
+		}
+			// In case the cursor goes off the table (in the Lanth II group)
+		if (x == xValueOfGroupV && (y < yValueOfPeriodLanthanides && y > yValueOfPeriodVII))
+		{
+			y = yValueOfPeriodVII;
+		}
+			// In case the cursor goes off the table (in the Lanth III group)
+		if (x == xValueOfGroupVI && (y < yValueOfPeriodLanthanides && y > yValueOfPeriodVII))
+		{
+			y = yValueOfPeriodVII;
+		}
+			// In case the cursor goes off the table (in the Lanth IV group)
+		if (x == xValueOfGroupVII && (y < yValueOfPeriodLanthanides && y > yValueOfPeriodVII))
+		{
+			y = yValueOfPeriodVII;
+		}
+			// In case the cursor goes off the table (in the Lanth V group)
+		if (x == xValueOfGroupVIII && (y < yValueOfPeriodLanthanides && y > yValueOfPeriodVII))
+		{
+			y = yValueOfPeriodVII;
+		}
+			// In case the cursor goes off the table (in the Lanth VI group)
+		if (x == xValueOfGroupIX && (y < yValueOfPeriodLanthanides && y > yValueOfPeriodVII))
+		{
+			y = yValueOfPeriodVII;
+		}
+			// In case the cursor goes off the table (in the Lanth VII group)
+		if (x == xValueOfGroupX && (y < yValueOfPeriodLanthanides && y > yValueOfPeriodVII))
+		{
+			y = yValueOfPeriodVII;
+		}
+			// In case the cursor goes off the table (in the Lanth VIII group)
+		if (x == xValueOfGroupXI && (y < yValueOfPeriodLanthanides && y > yValueOfPeriodVII))
+		{
+			y = yValueOfPeriodVII;
+		}
+			// In case the cursor goes off the table (in the Lanth IX group)
+		if (x == xValueOfGroupXII && (y < yValueOfPeriodLanthanides && y > 105))
+		{
+			y = yValueOfPeriodVI;
+		}
+			// In case the cursor goes off the table (in the Lanth X group)
+		if (x == xValueOfGroupXIII && (y < yValueOfPeriodLanthanides && y > 105))
+		{
+			y = yValueOfPeriodVI;
+		}
+			// In case the cursor goes off the table (in the Lanth XI group)
+		if (x == xValueOfGroupXIV && (y < yValueOfPeriodLanthanides && y > 105))
+		{
+			y = yValueOfPeriodVI;
+		}
+			// In case the cursor goes off the table (in the Lanth XII group)
+		if (x == xValueOfGroupXV && (y < yValueOfPeriodLanthanides && y > 105))
+		{
+			y = yValueOfPeriodVI;
+		}
+			// In case the cursor goes off the table (in the Lanth XIII group)
+		if (x == xValueOfGroupXVI && (y < yValueOfPeriodLanthanides && y > 105))
+		{
+			y = yValueOfPeriodVI;
+		}
+			// In case the cursor goes off the table (in the Lanth XIV group)
+		if (x == xValueOfGroupXVII && (y < yValueOfPeriodLanthanides && y > 105))
+		{
+			y = yValueOfPeriodVI;
+		}
+			// In case the cursor goes off the table (in the Lanth XV group)
+		if (x == xValueOfGroupXVIII && (y < yValueOfPeriodLanthanides && y > 105))
+		{
+			y = yValueOfPeriodVI;
+		}
+		firstrun = 0;
+		CCoeControl::DrawNow();
+		break;
+    case EKeyLeftArrow:
+		x = x - xMovement;
+				// In case we move from helium to hydrogen
+		if ((x < xValueOfGroupXVIII && x > xValueOfGroupI) && y == yValueOfPeriodI)
+		{
+			x = xValueOfGroupI;
+		}
+				// In case we move from boron to beryllium
+		if ((x < xValueOfGroupXIII && x > xValueOfGroupII) && y == yValueOfPeriodII)
+		{
+			x = xValueOfGroupII;
+		}
+				// In case we move from aluminium to magnesium
+		if ((x < xValueOfGroupXIII && x > xValueOfGroupII) && y == yValueOfPeriodIII)
+		{
+			x = xValueOfGroupII;
+		}
+				// In case we go to the Lanthanides from hafnium
+		if ((x == xValueOfGroupIII) && y == yValueOfPeriodVI)
+		{
+			x = xValueOfGroupXVIII;
+			y = yValueOfPeriodLanthanides;
+		}
+				// In case we go to the Actinides from rutherfordium
+		if ((x == xValueOfGroupIII) && y == yValueOfPeriodVII)
+		{
+			x = xValueOfGroupXVIII;
+			y = yValueOfPeriodActinides;
+		}
+				// In case the cursor goes off the table (in the I block)
+		if (x < xValueOfGroupI && y == yValueOfPeriodI)
+		{
+			x = x + xMovement;
+		}
+				// In case the cursor goes off the table (in the II block)
+		if (x < xValueOfGroupI && y == yValueOfPeriodII)
+		{
+			x = x + xMovement;
+		}
+				// In case the cursor goes off the table (in the III block)
+		if (x < xValueOfGroupI && y == yValueOfPeriodIII)
+		{
+			x = x + xMovement;
+		}
+				// In case the cursor goes off the table (in the IV block)
+		if (x < xValueOfGroupI && y == yValueOfPeriodIV)
+		{
+			x = x + xMovement;
+		}
+				// In case the cursor goes off the table (in the V block)
+		if (x < xValueOfGroupI && y == yValueOfPeriodV)
+		{
+			x = x + xMovement;
+		}
+				// In case the cursor goes off the table (in the VI block)
+		if (x < xValueOfGroupI && y == yValueOfPeriodVI)
+		{
+			x = x + xMovement;
+		}
+				// In case the cursor goes off the table (in the VII block)
+		if (x < xValueOfGroupI && y == yValueOfPeriodVII)
+		{
+			x = x + xMovement;
+		}
+				// In case the cursor goes off the table (in the Lanthanides)
+		if (x < xValueOfGroupIV && y == yValueOfPeriodLanthanides)
+		{
+			x = xValueOfGroupII;
+			y = yValueOfPeriodVI;
+		}
+				// In case the cursor goes off the table (in the Actinides)
+		if (x < xValueOfGroupIV && y == yValueOfPeriodActinides)
+		{
+			x = xValueOfGroupII;
+			y = yValueOfPeriodVII;
+		}
+		firstrun = 0;
+		CCoeControl::DrawNow();
+		break;
+    case EKeyRightArrow:
+		x = x + xMovement;
+				// In case we move from hydrogen to helium
+		if ((x > xValueOfGroupI && x < xValueOfGroupXVIII) && y == yValueOfPeriodI)
+		{
+			x = xValueOfGroupXVIII;
+		}
+				// In case we move from beryllium to boron
+		if ((x > xValueOfGroupII && x < xValueOfGroupXIII) && y == yValueOfPeriodII)
+		{
+			x = xValueOfGroupXIII;
+		}
+				// In case we move from magnesium to aluminium
+		if ((x > xValueOfGroupII && x < xValueOfGroupXIII) && y == yValueOfPeriodIII)
+		{
+			x = xValueOfGroupXIII;
+		}
+				// In case we go to the Lanthanides from barium
+		if ((x == xValueOfGroupIII) && y == yValueOfPeriodVI)
+		{
+			x = xValueOfGroupIV;
+			y = yValueOfPeriodLanthanides;
+		}
+				// In case we go to the Actinides from radium
+		if ((x == xValueOfGroupIII) && y == yValueOfPeriodVII)
+		{
+			x = xValueOfGroupIV;
+			y = yValueOfPeriodActinides;
+		}
+				// In case the cursor goes off the table (in the I block)
+		if (x > xValueOfGroupXVIII && y == yValueOfPeriodI)
+		{
+			x = x - xMovement;
+		}
+				// In case the cursor goes off the table (in the II block)
+		if (x > xValueOfGroupXVIII && y == yValueOfPeriodII)
+		{
+			x = x - xMovement;
+		}
+				// In case the cursor goes off the table (in the III block)
+		if (x > xValueOfGroupXVIII && y == yValueOfPeriodIII)
+		{
+			x = x - xMovement;
+		}
+				// In case the cursor goes off the table (in the IV block)
+		if (x > xValueOfGroupXVIII && y == yValueOfPeriodIV)
+		{
+			x = x - xMovement;
+		}
+				// In case the cursor goes off the table (in the V block)
+		if (x > xValueOfGroupXVIII && y == yValueOfPeriodV)
+		{
+			x = x - xMovement;
+		}
+				// In case the cursor goes off the table (in the VI block)
+		if (x > xValueOfGroupXVIII && y == yValueOfPeriodVI)
+		{
+			x = x - xMovement;
+		}
+				// In case the cursor goes off the table (in the VII block)
+		if (x > xValueOfGroupXI&& y == yValueOfPeriodVII)
+		{
+			x = xValueOfGroupXII;
+			y = yValueOfPeriodVI;
+		}
+				// In case the cursor goes off the table (in the Lanthanides)
+		if (x > xValueOfGroupXVIII && y == yValueOfPeriodLanthanides)
+		{
+			x = xValueOfGroupIV;
+			y = yValueOfPeriodVI;
+		}
+				// In case the cursor goes off the table (in the Actinides)
+		if (x > xValueOfGroupXVIII && y == yValueOfPeriodActinides)
+		{
+			x = xValueOfGroupIV;
+			y = yValueOfPeriodVII;
+		}
+		firstrun = 0;
+		CCoeControl::DrawNow();
+		break;
+    case EKeyEnter:
+				// If we press Enter in the hydrogen box
+		if (x == xValueOfGroupI && y == yValueOfPeriodI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(1);
+		}
+				// If we press Enter in the lithium box
+		if (x == xValueOfGroupI && y == yValueOfPeriodII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(2);
+		}
+				// If we press Enter in the sodium box
+		if (x == xValueOfGroupI && y == yValueOfPeriodIII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(3);
+		}
+				// If we press Enter in the potassium box
+		if (x == xValueOfGroupI && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(4);
+		}
+				// If we press Enter in the rubidium box
+		if (x == xValueOfGroupI && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(5);
+		}
+				// If we press Enter in the caesium box
+		if (x == xValueOfGroupI && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(6);
+		}
+				// If we press Enter in the francium box
+		if (x == xValueOfGroupI && y == yValueOfPeriodVII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(7);
+		}
+				// If we press Enter in the beryllium box
+		if (x == xValueOfGroupII && y == yValueOfPeriodII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(8);
+		}
+				// If we press Enter in the magnesium box
+		if (x == xValueOfGroupII && y == yValueOfPeriodIII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(9);
+		}
+				// If we press Enter in the calcium box
+		if (x == xValueOfGroupII && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(10);
+		}
+				// If we press Enter in the strontium box
+		if (x == xValueOfGroupII && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(11);
+		}
+				// If we press Enter in the barium box
+		if (x == xValueOfGroupII && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(12);
+		}
+				// If we press Enter in the radium box
+		if (x == xValueOfGroupII && y == yValueOfPeriodVII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(13);
+		}
+				// If we press Enter in the scandium box
+		if (x == xValueOfGroupIII && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(14);
+		}
+				// If we press Enter in the yttrium box
+		if (x == xValueOfGroupIII && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(15);
+		}
+				// If we press Enter in the titanium box
+		if (x == xValueOfGroupIV && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(16);
+		}
+				// If we press Enter in the zirconium box
+		if (x == xValueOfGroupIV && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(17);
+		}
+				// If we press Enter in the hafnium box
+		if (x == xValueOfGroupIV && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(18);
+		}
+				// If we press Enter in the rutherfordium box
+		if (x == xValueOfGroupIV && y == yValueOfPeriodVII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(19);
+		}
+				// If we press Enter in the vanadium box
+		if (x == xValueOfGroupV && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(20);
+		}
+				// If we press Enter in the niobium box
+		if (x == xValueOfGroupV && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(21);
+		}
+				// If we press Enter in the tantalum box
+		if (x == xValueOfGroupV && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(22);
+		}
+				// If we press Enter in the dubnium box
+		if (x == xValueOfGroupV && y == yValueOfPeriodVII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(23);
+		}
+				// If we press Enter in the chromium box
+		if (x == xValueOfGroupVI && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(24);
+		}
+				// If we press Enter in the molybdenum box
+		if (x == xValueOfGroupVI && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(25);
+		}
+				// If we press Enter in the tungsten box
+		if (x == xValueOfGroupVI && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(26);
+		}
+				// If we press Enter in the seaborgium box
+		if (x == xValueOfGroupVI && y == yValueOfPeriodVII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(27);
+		}
+				// If we press Enter in the manganese box
+		if (x == xValueOfGroupVII && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(28);
+		}
+				// If we press Enter in the technetium box
+		if (x == xValueOfGroupVII && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(29);
+		}
+				// If we press Enter in the rhenium box
+		if (x == xValueOfGroupVII && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(30);
+		}
+				// If we press Enter in the bohrium box
+		if (x == xValueOfGroupVII && y == yValueOfPeriodVII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(31);
+		}
+				// If we press Enter in the iron box
+		if (x == xValueOfGroupVIII && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(32);
+		}
+				// If we press Enter in the ruthenium box
+		if (x == xValueOfGroupVIII && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(33);
+		}
+				// If we press Enter in the osmium box
+		if (x == xValueOfGroupVIII && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(34);
+		}
+				// If we press Enter in the hassium box
+		if (x == xValueOfGroupVIII && y == yValueOfPeriodVII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(35);
+		}
+				// If we press Enter in the cobalt box
+		if (x == xValueOfGroupIX && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(36);
+		}
+				// If we press Enter in the rhenium box
+		if (x == xValueOfGroupIX && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(37);
+		}
+				// If we press Enter in the iridium box
+		if (x == xValueOfGroupIX && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(38);
+		}
+				// If we press Enter in the meitnerium box
+		if (x == xValueOfGroupIX && y == yValueOfPeriodVII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(39);
+		}
+				// If we press Enter in the nickel box
+		if (x == xValueOfGroupX && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(40);
+		}
+				// If we press Enter in the palladium box
+		if (x == xValueOfGroupX && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(41);
+		}
+				// If we press Enter in the platinum box
+		if (x == xValueOfGroupX && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(42);
+		}
+				// If we press Enter in the darmstadtium box
+		if (x == xValueOfGroupX && y == yValueOfPeriodVII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(43);
+		}
+				// If we press Enter in the copper box
+		if (x == xValueOfGroupXI && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(44);
+		}
+				// If we press Enter in the silver box
+		if (x == xValueOfGroupXI && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(45);
+		}
+				// If we press Enter in the gold box
+		if (x == xValueOfGroupXI && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(46);
+		}
+				// If we press Enter in the roentgenium box
+		if (x == xValueOfGroupXI && y == yValueOfPeriodVII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(47);
+		}
+				// If we press Enter in the zinc box
+		if (x == xValueOfGroupXII && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(48);
+		}
+				// If we press Enter in the cadmium box
+		if (x == xValueOfGroupXII && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(49);
+		}
+				// If we press Enter in the mercury box
+		if (x == xValueOfGroupXII && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(50);
+		}
+				// If we press Enter in the boron box
+		if (x == xValueOfGroupXIII && y == yValueOfPeriodII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(51);
+		}
+				// If we press Enter in the aluminium box
+		if (x == xValueOfGroupXIII && y == yValueOfPeriodIII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(52);
+		}
+				// If we press Enter in the gallium box
+		if (x == xValueOfGroupXIII && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(53);
+		}
+				// If we press Enter in the indium box
+		if (x == xValueOfGroupXIII && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(54);
+		}
+				// If we press Enter in the thallium box
+		if (x == xValueOfGroupXIII && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(55);
+		}
+				// If we press Enter in the carbon box
+		if (x == xValueOfGroupXIV && y == yValueOfPeriodII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(56);
+		}
+				// If we press Enter in the silicon box
+		if (x == xValueOfGroupXIV && y == yValueOfPeriodIII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(57);
+		}
+				// If we press Enter in the germanium box
+		if (x == xValueOfGroupXIV && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(58);
+		}
+				// If we press Enter in the tin box
+		if (x == xValueOfGroupXIV && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(59);
+		}
+				// If we press Enter in the lead box
+		if (x == xValueOfGroupXIV && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(60);
+		}
+				// If we press Enter in the nitrogen box
+		if (x == xValueOfGroupXV && y == yValueOfPeriodII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(61);
+		}
+				// If we press Enter in the phosphorus box
+		if (x == xValueOfGroupXV && y == yValueOfPeriodIII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(62);
+		}
+				// If we press Enter in the arsenic box
+		if (x == xValueOfGroupXV && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(63);
+		}
+				// If we press Enter in the antimony box
+		if (x == xValueOfGroupXV && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(64);
+		}
+				// If we press Enter in the bismuth box
+		if (x == xValueOfGroupXV && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(65);
+		}
+				// If we press Enter in the oxygen box
+		if (x == xValueOfGroupXVI && y == yValueOfPeriodII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(66);
+		}
+				// If we press Enter in the sulfur box
+		if (x == xValueOfGroupXVI && y == yValueOfPeriodIII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(67);
+		}
+				// If we press Enter in the selenium box
+		if (x == xValueOfGroupXVI && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(68);
+		}
+				// If we press Enter in the tellurium box
+		if (x == xValueOfGroupXVI && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(69);
+		}
+				// If we press Enter in the polonium box
+		if (x == xValueOfGroupXVI && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(70);
+		}
+				// If we press Enter in the fluorine box
+		if (x == xValueOfGroupXVII && y == yValueOfPeriodII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(71);
+		}
+				// If we press Enter in the chlorine box
+		if (x == xValueOfGroupXVII && y == yValueOfPeriodIII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(72);
+		}
+				// If we press Enter in the bromine box
+		if (x == xValueOfGroupXVII && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(73);
+		}
+				// If we press Enter in the iodine box
+		if (x == xValueOfGroupXVII && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(74);
+		}
+				// If we press Enter in the astatine box
+		if (x == xValueOfGroupXVII && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(75);
+		}
+				// If we press Enter in the helium box
+		if (x == xValueOfGroupXVIII && y == yValueOfPeriodI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(76);
+		}
+				// If we press Enter in the neon box
+		if (x == xValueOfGroupXVIII && y == yValueOfPeriodII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(77);
+		}
+				// If we press Enter in the argon box
+		if (x == xValueOfGroupXVIII && y == yValueOfPeriodIII)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(78);
+		}
+				// If we press Enter in the krypton box
+		if (x == xValueOfGroupXVIII && y == yValueOfPeriodIV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(79);
+		}
+				// If we press Enter in the xenon box
+		if (x == xValueOfGroupXVIII && y == yValueOfPeriodV)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(80);
+		}
+				// If we press Enter in the radon box
+		if (x == xValueOfGroupXVIII && y == yValueOfPeriodVI)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(81);
+		}
+				// If we press Enter in the lanthanum box
+		if (x == xValueOfGroupIV && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(82);
+		}
+				// If we press Enter in the cerium box
+		if (x == xValueOfGroupV && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(83);
+		}
+				// If we press Enter in the praseodymium box
+		if (x == xValueOfGroupVI && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(84);
+		}
+				// If we press Enter in the neodymium box
+		if (x == xValueOfGroupVII && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(85);
+		}
+				// If we press Enter in the promethium box
+		if (x == xValueOfGroupVIII && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(86);
+		}
+				// If we press Enter in the samarium box
+		if (x == xValueOfGroupIX && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(87);
+		}
+				// If we press Enter in the europium box
+		if (x == xValueOfGroupX && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(88);
+		}
+				// If we press Enter in the gadolinium box
+		if (x == xValueOfGroupXI && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(89);
+		}
+				// If we press Enter in the terbium box
+		if (x == xValueOfGroupXII && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(90);
+		}
+				// If we press Enter in the dysprosium box
+		if (x == xValueOfGroupXIII && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(91);
+		}
+				// If we press Enter in the holmium box
+		if (x == xValueOfGroupXIV && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(92);
+		}
+				// If we press Enter in the erbium box
+		if (x == xValueOfGroupXV && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(93);
+		}
+				// If we press Enter in the thulium box
+		if (x == xValueOfGroupXVI && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(94);
+		}
+				// If we press Enter in the ytterbium box
+		if (x == xValueOfGroupXVII && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(95);
+		}
+				// If we press Enter in the lutetium box
+		if (x == xValueOfGroupXVIII && y == yValueOfPeriodLanthanides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(96);
+		}
+				// If we press Enter in the actinium box
+		if (x == xValueOfGroupIV && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(97);
+		}
+				// If we press Enter in the thorium box
+		if (x == xValueOfGroupV && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(98);
+		}
+				// If we press Enter in the protactinium box
+		if (x == xValueOfGroupVI && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(99);
+		}
+				// If we press Enter in the uranium box
+		if (x == xValueOfGroupVII && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(100);
+		}
+				// If we press Enter in the neptunium box
+		if (x == xValueOfGroupVIII && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(101);
+		}
+				// If we press Enter in the plutonium box
+		if (x == xValueOfGroupIX && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(102);
+		}
+				// If we press Enter in the americium box
+		if (x == xValueOfGroupX && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(103);
+		}
+				// If we press Enter in the curium box
+		if (x == xValueOfGroupXI && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(104);
+		}
+				// If we press Enter in the berkelium box
+		if (x == xValueOfGroupXII && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(105);
+		}
+				// If we press Enter in the californium box
+		if (x == xValueOfGroupXIII && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(106);
+		}
+				// If we press Enter in the einsteinium box
+		if (x == xValueOfGroupXIV && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(107);
+		}
+				// If we press Enter in the fermium box
+		if (x == xValueOfGroupXV && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(108);
+		}
+				// If we press Enter in the mendelevium box
+		if (x == xValueOfGroupXVI && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(109);
+		}
+				// If we press Enter in the nobelium box
+		if (x == xValueOfGroupXVII && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(110);
+		}
+				// If we press Enter in the lawrencium box
+		if (x == xValueOfGroupXVIII && y == yValueOfPeriodActinides)
+		{
+				// We launch its dialogs
+			example->LaunchElementDialog(111);
+		}
+		firstrun = 0;
+		break;
+    default:
+		break;
+        }
+			// pop from cleanup stack, and destroy, in one operation 
+		CleanupStack::Pop(); 
+    return(EKeyWasConsumed); 
+    }
+

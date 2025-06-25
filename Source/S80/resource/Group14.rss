@@ -1,0 +1,54 @@
+// InfoDialogs.RSS
+//
+//
+
+NAME CARB
+
+#include <eikon.rh>
+#include <eikcore.rsg>
+
+#include "PeriodicTable.hrh"
+
+RESOURCE RSS_SIGNATURE {  }
+
+/* Group 14 */
+RESOURCE TBUF r_carbon_general { buf="Name: carbon\nSymbol: C\nAtomic number: 6\nCategory: nonmetals\nGroup: 14\nPeriod: 2\nBlock: p\nAtomic weight: 12.0107 g/mol\nElectrons per shell: 2, 4\nCAS number: 7440-44-0"; }
+RESOURCE TBUF r_carbon_physical { buf="Phase: solid\nDensity: 1.8 - 2.1 kg/l (amorphous) - near r.t.\n        2.267 kg/l (graphite) - near r.t\n        3.515 kg/l (diamond) - near r.t.\nMelting point: 3800 (graphite) K (3527°C, 6381°F)\nBoiling point: 4300 K (4027°C, 7281°F)"; }
+RESOURCE TBUF r_carbon_atomic { buf="Crystal structure: graphite: hexagonal\n                  diamond: isometric-hexoctahedral\nOxidation states: -4, -3, -2, -1, 0, 1, 2, 3, 4\nElectronegativity: 2.55 (Pauling scale)"; }
+RESOURCE TBUF r_carbon_name { buf="Comes from: carbo\nMeaning: a Latin word meaning charcoal as carbon\n         is found in it"; }
+RESOURCE TBUF r_carbon_other { buf="- has lots of allotropic forms - e.g. diamond,\n  amorphous carbon, graphite and fullerene\n- is the fourth most abundant element in the\n  universe by mass after hydrogen, helium, and\n  oxygen"; }
+RESOURCE TBUF r_carbon_other2 { buf="- is present in all known lifeforms, and in the\n  human body carbon is the second most abundant\n  element by mass (about 18.5%) after oxygen\n- is the chemical basis of all known life\n- all the allotropic forms are solids under normal\n  conditions"; }
+RESOURCE TBUF r_carbon_other3 { buf="- pure carbon has extremely low toxicity and can be\n  handled and even ingested safely in the form of\n  graphite or charcoal graphite is the most\n  thermodynamically stable\n- diamond is among the hardest materials known,\n  while graphite is soft enough to form a streak\n  on paper"; }
+RESOURCE TBUF r_carbon_other4 { buf="- diamond has the highest thermal conductivity of\n  all known materials"; }
+RESOURCE TBUF r_silicon_general { buf="Name: silicon\nSymbol: Si\nAtomic number: 14\nCategory: metalloids\nGroup: 14\nPeriod: 3\nBlock: p\nAtomic weight: 28.0855 g/mol\nElectrons per shell: 2, 8, 4\nCAS number: 7440-21-3"; }
+RESOURCE TBUF r_silicon_physical { buf="Phase: solid\nDensity: 2.3290 kg/l (near room temperature)\nMelting point: 1687 K (1414°C, 2577°F)\nBoiling point: 3538 K (3265°C, 5909°F)"; }
+RESOURCE TBUF r_silicon_atomic { buf="Crystal structure: diamond cubic\nOxidation states: 4, 3, 2, 1\nElectronegativity: 1.90 (Pauling scale)"; }
+RESOURCE TBUF r_silicon_name { buf="Comes from: silex or silicis\nMeaning: the Latin word for flintstone which is a\n         form of the mineral quartz which contains\n         silicon"; }
+RESOURCE TBUF r_silicon_other { buf="- is less reactive than its chemical analog carbon\n- as the eighth most common element in the universe\n  by mass, it very rarely occurs as the pure free\n  element in nature"; }
+RESOURCE TBUF r_silicon_other2 { buf="- on Earth, silicon is the second most abundant\n  element (after oxygen) in the crust, making up\n  25.7% of the crust by mass\n- is the principal component of most semiconductor\n  devices, most importantly integrated circuits or\n  microchips"; }
+RESOURCE TBUF r_silicon_other3 { buf="- is an essential element in biology, although only\n  tiny traces of it appear to be required by\n  animals\n- in the form of silica and silicates, silicon\n  forms useful glasses, cements, and ceramics"; }
+RESOURCE TBUF r_germanium_general { buf="Name: germanium\nSymbol: Ge\nAtomic number: 32\nCategory: metalloids\nGroup: 14\nPeriod: 4\nBlock: p\nAtomic weight: 72.64 g/mol\nElectrons per shell: 2, 8, 18, 4\nCAS number: 7440-56-4"; }
+RESOURCE TBUF r_germanium_physical { buf="Phase: solid\nDensity: 5.323 kg/l (near room temperature)\nMelting point: 1211.40 K(938.25°C, 1720.85°F)\nBoiling point: 3106 K (2833°C, 5131°F)"; }
+RESOURCE TBUF r_germanium_atomic { buf="Crystal structure: diamond cubic\nOxidation states: 4, 3, 2, 1, 0, -1, -2, -3, -4\nElectronegativity: 2.01 (Pauling scale)"; }
+RESOURCE TBUF r_germanium_name { buf="Comes from: Germania\nMeaning: the Latin word for Germany, after the\n         discoverer's father land"; }
+RESOURCE TBUF r_germanium_other { buf="- five naturally occurring isotopes ranging in\n  atomic mass number from 70 to 76\n- is relatively abundant in the Earth's crust\n- is an important semiconductor material used in\n  transistors and various other electronic devices"; }
+RESOURCE TBUF r_germanium_other2 { buf="- is mined primarily from sphalerite, though it is\n  also recovered from silver, lead, and copper\n  ores\n- is not thought to be essential to the health of\n  plants or animals"; }
+RESOURCE TBUF r_germanium_other3 { buf="- most notable physical characteristics of germania\n  (GeO2) are its high index of refraction and its\n  low optical dispersion - these make it especially\n  useful for wide-angle camera lenses, microscopy,\n  and for the core part of optical fibers"; }
+RESOURCE TBUF r_germanium_other4 { buf="- has little or no impact on the environment\n  because it usually occurs only as a trace element\n  in ores and carbonaceous materials, and is used\n  in very small quantities in commercial\n  applications"; }
+RESOURCE TBUF r_tin_general { buf="Name: tin\nSymbol: Sn\nAtomic number: 50\nCategory: poor metals\nGroup: 14\nPeriod: 5\nBlock: p\nAtomic weight: 118.710 g/mol\nElectrons per shell: 2, 8, 18, 18, 4\nCAS number: 7440-31-5"; }
+RESOURCE TBUF r_tin_physical { buf="Phase: solid\nDensity: 7.365 kg/l (white) (near room temperature)\n        5.769 kg/l (gray) (near room temperature)\nMelting point: 505.08 K (231.93°C, 449.47°F)\nBoiling point: 2875 K (2602°C, 4716°F)"; }
+RESOURCE TBUF r_tin_atomic { buf="Crystal structure: tetragonal\nOxidation states: 4, 2\nElectronegativity: 1.96 (Pauling scale)"; }
+RESOURCE TBUF r_tin_name { buf="Comes from: stannum\nMeaning: the lead-silver alloy of the same name for\n         the finding of the latter in ores"; }
+RESOURCE TBUF r_tin_other { buf="- is the 49th most abundant element and has, with\n  10 isotopes, the largest number of stable\n  isotopes in the periodic table\n- a silvery, malleable poor metal which is not\n  easily oxidized in air, and is used to coat other\n  metals to prevent corrosion"; }
+RESOURCE TBUF r_tin_other2 { buf="- due to its low toxicity, tin-plated metal is also\n  used for food packaging, giving the name to tin\n  cans, which are made mostly out of aluminium or\n  tin-plated steel"; }
+RESOURCE TBUF r_tin_other3 { buf="- plays no known natural biological role in humans,\n  and possible health effects of tin are a subject\n  of dispute - tin itself is not toxic but most tin\n  salts are"; }
+RESOURCE TBUF r_tin_other4 { buf="- organotin compounds are very toxic - tri-n-\n  alkyltins are phytotoxic and depending on the\n  organic groups, they can be powerful\n  bactericides and fungicides"; }
+RESOURCE TBUF r_tin_other5 { buf="- resists corrosion from distilled, sea and soft\n  tap water, but can be attacked by strong acids,\n  alkalis, and acid salts"; }
+RESOURCE TBUF r_lead_general { buf="Name: lead\nSymbol: Pb\nAtomic number: 82\nCategory: post-transition metals\nGroup: 14\nPeriod: 6\nBlock: p\nAtomic weight: 207.2 g/mol\nElectrons per shell: 2, 8, 18, 32, 18, 4\nCAS number: 7439-92-1"; }
+RESOURCE TBUF r_lead_physical { buf="Phase: solid\nDensity: 11.34 kg/l (near room temperature)\nMelting point: 600.61 K (327.46°C, 621.43°F)\nBoiling point: 2022 K (1749°C, 3180°F)"; }
+RESOURCE TBUF r_lead_atomic { buf="Crystal structure: cubic face centered\nOxidation states: 4, 2\nElectronegativity: 2.33 (Pauling scale)"; }
+RESOURCE TBUF r_lead_name { buf="Comes from: lot\nMeaning: the German word for 'weight', as the\n         element is very heavy, and is used in\n         weights"; }
+RESOURCE TBUF r_lead_other { buf="- in Latin, lead was called plumbum; in Rome,\n  lead was used for plumbing\n- is a soft, malleable poor metal, also considered\n  to be one of the heavy metals\n- has a bluish-white color when freshly cut, but\n  tarnishes to a dull grayish color when exposed\n  to air"; }
+RESOURCE TBUF r_lead_other2 { buf="- has a shiny chrome-silver luster when melted into\n  a liquid\n- like mercury, another heavy metal, lead is a\n  potent neurotoxin that accumulates in soft\n  tissues and bone over time"; }
+RESOURCE TBUF r_lead_other3 { buf="- is used in building construction, lead-acid\n  batteries, bullets and shot, weights, and is\n  part of solder, pewter, fusible alloys and\n  radiation shields"; }
+RESOURCE TBUF r_lead_other4 { buf="- has the highest atomic number of all stable\n  elements, although the next element, bismuth,\n  has a half-life so long (longer than the\n  estimated age of the universe) it can be\n  considered stable"; }

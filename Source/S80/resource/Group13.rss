@@ -1,0 +1,52 @@
+// InfoDialogs.RSS
+//
+//
+
+NAME BORO
+
+#include <eikon.rh>
+#include <eikcore.rsg>
+
+#include "PeriodicTable.hrh"
+
+RESOURCE RSS_SIGNATURE {  }
+
+/* Group 13 */
+RESOURCE TBUF r_boron_general { buf="Name: boron\nSymbol: B\nAtomic number: 5\nCategory: metalloids\nGroup: 13\nPeriod: 2\nBlock: p\nAtomic weight: 10.811 g/mol\nElectrons per shell: 2, 3\nCAS number: 7440-42-8"; }
+RESOURCE TBUF r_boron_physical { buf="Phase: solid\nDensity: 2.08 kg/l (near room temperature)\nMelting point: 2349 K (2076°C, 3769°F)\nBoiling point: 4200 K (3927°C, 7101°F)"; }
+RESOURCE TBUF r_boron_atomic { buf="Crystal structure: rhombohedral\nOxidation states: 4, 3, 1\nElectronegativity: 2.04 (Pauling scale)"; }
+RESOURCE TBUF r_boron_name { buf="Comes from: buraq or burah\nMeaning: the Arabic and Persian words for the\n         mineral borax"; }
+RESOURCE TBUF r_boron_other { buf="- occurs abundantly in the evaporite ores borax\n  and ulexite\n- several allotropes of boron exist; amorphous\n  boron is a brown powder, though crystalline\n  boron is black, extremely hard (9.3 on Mohs'\n  scale), and a weak conductor at room temperature"; }
+RESOURCE TBUF r_boron_other2 { buf="- is used as a dopant in the semiconductor\n  industry, while boron compounds play important\n  roles as light structural materials, insecticides\n  and preservatives, and reagents for chemical\n  synthesis"; }
+RESOURCE TBUF r_boron_other3 { buf="- is an essential plant nutrient, although high\n  soil concentrations of boron may also be toxic\n  to plants\n- elemental boron is nontoxic and common boron\n  compounds such as borates and boric acid have\n  low toxicity (approximately similar to table"; }
+RESOURCE TBUF r_boron_other4 { buf="  salt with the lethal dose being 2 to 3 grams\n  per kilogram) and therefore do not require\n  special precautions while handling nearly all\n  boron ore extracted from the Earth is destined\n  for refinement into boric acid and sodium\n  tetraborate"; }
+RESOURCE TBUF r_aluminium_general { buf="Name: aluminium\nSymbol: Al\nAtomic number: 13\nCategory: poor metals\nGroup: 13\nPeriod: 3\nBlock: p\nAtomic weight: 26.9815386 g/mol\nElectrons per shell: 2, 8, 3\nCAS number: 7429-90-5"; }
+RESOURCE TBUF r_aluminium_physical { buf="Phase: solid\nDensity: 2.70 kg/l (near room temperature)\nMelting point: 933.47 K (660.32°C, 1220.58°F)\nBoiling point: 2792 K (2519°C, 4566°F)"; }
+RESOURCE TBUF r_aluminium_atomic { buf="Crystal structure: face centered cubic\nOxidation states: 3, 2, 1\nElectronegativity: 1.61 (Pauling scale)"; }
+RESOURCE TBUF r_aluminium_name { buf="Comes from: alumium\nMeaning: the name that the chemist-inventor Humphry\n         Davy gave to the metal base of the mineral\n         alumina"; }
+RESOURCE TBUF r_aluminium_other { buf="- is the most abundant metal in the Earth's crust,\n  and the third most abundant element therein,\n  after oxygen and silicon\n- makes up about 8% by weight of the Earth’s solid\n  surface"; }
+RESOURCE TBUF r_aluminium_other2 { buf="- is too reactive chemically to occur in nature as\n  a free metal - instead, it is found combined in\n  over 270 different minerals\n- is remarkable for its ability to resist corrosion\n  (due to the phenomenon of passivation) and its\n  low density"; }
+RESOURCE TBUF r_aluminium_other3 { buf="- is used in aerospace industry, transportation\n  and building, and as a catalyst or additive\n  in chemical mixtures, including being used\n  in ammonium nitrate explosives to enhance blast\n  power\n- has nine isotopes, whose mass numbers range from\n  23 to 30"; }
+RESOURCE TBUF r_aluminium_other4 { buf="- is 100% recyclable without any loss of its\n  natural qualities"; }
+RESOURCE TBUF r_gallium_general { buf="Name: gallium\nSymbol: Ga\nAtomic number: 31\nCategory: poor metals\nGroup: 13\nPeriod: 4\nBlock: p\nAtomic weight: 69.723 g/mol\nElectrons per shell: 2, 8, 18, 3\nCAS number: 7440-55-3"; }
+RESOURCE TBUF r_gallium_physical { buf="Phase: solid\nDensity: 5.91 kg/l (near room temperature)\nMelting point: 302.9146 K (29.7646°C, 85.5763°F)\nBoiling point: 2477 K (2204°C, 3999°F)"; }
+RESOURCE TBUF r_gallium_atomic { buf="Crystal structure: orthorhombic\nOxidation states: 3, 2, 1\nElectronegativity: 1.81 (Pauling scale)"; }
+RESOURCE TBUF r_gallium_name { buf="Comes from: Gallia\nMeaning: a Latin word meaning Gaul - modern France\n         which was given after the home country\n         of the element's discoverer"; }
+RESOURCE TBUF r_gallium_other { buf="- elemental gallium does not occur in nature, but\n  as the Ga (III) salt, in trace amounts in\n  bauxite and zinc ores\n- liquefies slightly above room temperature, it\n  will melt in the hand"; }
+RESOURCE TBUF r_gallium_other2 { buf="- is not known to be essential in biology, but\n  because of the biological handling of gallium’s\n  primary ionic salt Ga(III) as though it were\n  iron(III), gallium ion localizes to and\n  interacts with many processes in the body in\n  which iron(III) is manipulated"; }
+RESOURCE TBUF r_gallium_other3 { buf="- while not considered toxic, the data about\n  gallium are inconclusive: some sources suggest\n  that it may cause dermatitis from prolonged\n  exposure; other tests have not caused a positive\n  reaction"; }
+RESOURCE TBUF r_gallium_other4 { buf="- the only economic sources for gallium are as\n  byproduct of aluminium and zinc production\n- is used widely in LEDs and semiconductors"; }
+RESOURCE TBUF r_indium_general { buf="Name: indium\nSymbol: In\nAtomic number: 49\nCategory: poor metals\nGroup: 13\nPeriod: 5\nBlock: p\nAtomic weight: 114.818 g/mol\nElectrons per shell: 2, 8, 18, 18, 3\nCAS number: 7440-74-6"; }
+RESOURCE TBUF r_indium_physical { buf="Phase: solid\nDensity: 7.31 kg/l (near room temperature)\nMelting point: 429.7485 K (156.5985°C, 313.8773°F)\nBoiling point: 2345 K (2072°C, 3762°F)"; }
+RESOURCE TBUF r_indium_atomic { buf="Crystal structure: tetragonal\nOxidation states: 3\nElectronegativity: 1.78 (Pauling scale)"; }
+RESOURCE TBUF r_indium_name { buf="Comes from: indicum\nMeaning: a Latin word meaning indigo blue: spectral\n         stripes of indium are bright blue"; }
+RESOURCE TBUF r_indium_other { buf="- its primary application is to form transparent\n  electrodes from indium tin oxide in liquid\n  crystal displays\n- is also used for making particularly low melting\n  point alloys, and is a component in some lead-\n  free solders"; }
+RESOURCE TBUF r_indium_other2 { buf="- radioactive indium-111 is used in nuclear\n  medicine as an imaging agent to follow the\n  movement of leukocytes in the body\n- pure indium in metal form is considered non-toxic\n  by most sources"; }
+RESOURCE TBUF r_indium_other3 { buf="- the first large-scale application for indium was\n  as a coating for bearings in high-performance\n  aircraft engines during World War II"; }
+RESOURCE TBUF r_thallium_general { buf="Name: thallium\nSymbol: Tl\nAtomic number: 81\nCategory: poor metals\nGroup: 13\nPeriod: 6\nBlock: p\nAtomic weight: 204.3833 g/mol\nElectrons per shell: 2, 8, 18, 32, 18, 3\nCAS number: 7440-28-0"; }
+RESOURCE TBUF r_thallium_physical { buf="Phase: solid\nDensity: 11.85 kg/l (near room temperature)\nMelting point: 577 K (304°C, 579°F)\nBoiling point: 1746 K (1473°C, 2683°F)"; }
+RESOURCE TBUF r_thallium_atomic { buf="Crystal structure: hexagonal\nOxidation states: 3, 1\nElectronegativity: 1.62 (Pauling scale)"; }
+RESOURCE TBUF r_thallium_name { buf="Comes from: thallos\nMeaning: a Greek word meaning 'a green shoot' -\n         comes from thallium's bright green\n         spectral emission lines"; }
+RESOURCE TBUF r_thallium_other { buf="- a soft gray malleable poor metal which resembles\n  tin but discolors when exposed to air\n- approximately 60-70% of thallium production is\n  used in the electronics industry, and the rest\n  is used in the pharmaceutical industry and in\n  glass manufacturing\n- is also used in infrared detectors"; }
+RESOURCE TBUF r_thallium_other2 { buf="- is highly toxic and is used in rat poisons and\n  insecticides, but its use has been cut back or\n  eliminated in many countries\n- because of its use for murder, thallium has\n  gained the nicknames 'The Poisoner's Poison' and\n  'Inheritance Powder' (alongside arsenic)"; }
+RESOURCE TBUF r_thallium_other3 { buf="- thallium metal is obtained as a by-product in the\n  production of sulfuric acid by roasting of\n  pyrite, and also in the smelting of lead and zinc\n  ores"; }

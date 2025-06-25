@@ -1,0 +1,36 @@
+// InfoDialogs.RSS
+//
+//
+
+NAME IRON
+
+#include <eikon.rh>
+#include <eikcore.rsg>
+
+#include "PeriodicTable.hrh"
+
+RESOURCE RSS_SIGNATURE {  }
+
+/* Group 8 */
+RESOURCE TBUF r_iron_general { buf="Name: iron\nSymbol: Fe\nAtomic number: 26\nCategory: transition metals\nGroup: 8\nPeriod: 4\nBlock: d\nAtomic weight: 55.845 g/mol\nElectrons per shell: 2, 8, 14, 2\nCAS number: 7439-89-6"; }
+RESOURCE TBUF r_iron_physical { buf="Phase: solid\nDensity: 7.874 kg/l (near room temperature)\nMelting point: 1811 K (1538°C, 2800°F)\nBoiling point: 3134 K (2862°C, 5182°F)"; }
+RESOURCE TBUF r_iron_atomic { buf="Crystal structure: body-centered cubic\nOxidation states: 6, 5, 4, 3, 2, 1\nElectronegativity: 1.84 (Pauling scale)"; }
+RESOURCE TBUF r_iron_name { buf="Comes from: ferreus\nMeaning: to be hard in Latin"; }
+RESOURCE TBUF r_iron_other { buf="- is the sixth most abundant element in the\n  Universe\n- is the most widely used of all the metals,\n  accounting for 95% of worldwide metal production"; }
+RESOURCE TBUF r_iron_other2 { buf="- fresh iron surfaces are lustrous and silvery-grey\n  in color, but oxidise in air to form a red or\n  brown coating of ferrous oxide or rust"; }
+RESOURCE TBUF r_ruthenium_general { buf="Name: ruthenium\nSymbol: Ru\nAtomic number: 44\nCategory: transition metals\nGroup: 8\nPeriod: 5\nBlock: d\nAtomic weight: 101.07 g/mol\nElectrons per shell: 2, 8, 18, 15, 1\nCAS number: 7440-18-8"; }
+RESOURCE TBUF r_ruthenium_physical { buf="Phase: solid\nDensity: 12.45 kg/l (near room temperature)\nMelting point: 2607 K (2334°C, 4233°F)\nBoiling point: 4423 K (4150°C, 7502°F)"; }
+RESOURCE TBUF r_ruthenium_atomic { buf="Crystal structure: hexagonal\nOxidation states: 8, 6, 4, 3, 2, 1\nElectronegativity: 2.3 (Pauling scale)"; }
+RESOURCE TBUF r_ruthenium_name { buf="Comes from: Ruthenia\nMeaning: the finder of this element, Karl Klaus,\n         named the element after his birthland,\n         which was at the time a part of the\n         Russian empire (in Latin Ruthenia)"; }
+RESOURCE TBUF r_ruthenium_other { buf="- is found associated with platinum ores\n- is used as a catalyst in some platinum alloys\n- due to its ability to harden platinum and\n  palladium, ruthenium is used in platinum and\n  palladium alloys to make wear-resistant\n  electrical contacts\n- is a hard white metal"; }
+RESOURCE TBUF r_osmium_general { buf="Name: osmium\nSymbol: Os\nAtomic number: 76\nCategory: transition metals\nGroup: 8\nPeriod: 6\nBlock: d\nAtomic weight: 190.23 g/mol\nElectrons per shell: 2, 8, 18, 32, 14, 2\nCAS number: 7440-04-2"; }
+RESOURCE TBUF r_osmium_physical { buf="Phase: solid\nDensity: 22.61 kg/l (near room temperature)\nMelting point: 3306 K (3033°C, 5491°F)\nBoiling point: 5285 K (5012°C, 9054°F)"; }
+RESOURCE TBUF r_osmium_atomic { buf="Crystal structure: hexagonal\nOxidation states: 8, 7, 6, 5, 4, 3, 2, 1, 0, -1, -2\nElectronegativity: 2.2 (Pauling scale)"; }
+RESOURCE TBUF r_osmium_name { buf="Comes from: osme\nMeaning: a Greek word for smell because of the\n         smell of the volatile osmium tetroxide"; }
+RESOURCE TBUF r_osmium_other { buf="- the second densest element\n- is used in alloys with platinum, iridium and\n  other platinum group metals\n- is found in nature as an alloy in platinum ore"; }
+RESOURCE TBUF r_osmium_other2 { buf="- are employed in fountain pen tips, electrical\n  contacts and in other applications where extreme\n  durability and hardness are needed"; }
+RESOURCE TBUF r_hassium_general { buf="Name: hassium\nSymbol: Hs\nAtomic number: 108\nCategory: transition metals\nGroup: 8\nPeriod: 7\nBlock: d\nAtomic weight: [277] g/mol\nElectrons per shell: 2, 8, 18, 32, 32, 14, 2\nCAS number: 54037-57-9"; }
+RESOURCE TBUF r_hassium_physical { buf="Phase: presumably a solid\nDensity: unknown\nMelting point: unknown\nBoiling point: unknown"; }
+RESOURCE TBUF r_hassium_atomic { buf="Crystal structure: unknown\nOxidation states: 8 (expected)\nElectronegativity: unknown"; }
+RESOURCE TBUF r_hassium_name { buf="Comes from: Hesse\nMeaning: the Latin name for the German state where\n       the discoverer institute is located"; }
+RESOURCE TBUF r_hassium_other { buf="- is a synthetic element\n- was named eka-osmium before the official name was\n  proposed\n- oxidizes similarly to osmium above it, to form a\n  hassium tetroxide"; }
