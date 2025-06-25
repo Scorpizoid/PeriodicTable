@@ -1,0 +1,53 @@
+// InfoDialogs.mmp
+//
+//
+
+// using relative paths for sourcepath and user includes
+
+EPOCSTACKSIZE 0x5000
+
+TARGET        InfoDialogs.app
+TARGETTYPE    app
+UID           0x100039CE 0X10008AB1
+
+TARGETPATH    \system\apps\InfoDialogs
+
+SOURCEPATH    .
+SOURCE        InfoDialogs_Main.cpp
+SOURCE        InfoDialogs_Application.cpp
+SOURCE        InfoDialogs_Document.cpp
+SOURCE        InfoDialogs_AppUi.cpp
+SOURCE        InfoDialogs_AppView.cpp
+
+START BITMAP  InfoDialogs.mbm
+HEADER
+SOURCEPATH    .
+SOURCE        c24 ClockFace.bmp
+END
+
+USERINCLUDE   .
+SYSTEMINCLUDE \epoc32\include
+
+SOURCEPATH    .
+RESOURCE      InfoDialogs.rss
+RESOURCE      Group1.rss
+RESOURCE      Group2.rss
+RESOURCE      Group3.rss
+RESOURCE      Group4.rss
+RESOURCE      Group5.rss
+RESOURCE      Group6.rss
+RESOURCE      Group7.rss
+RESOURCE      Group8.rss
+RESOURCE      Group9.rss
+RESOURCE      Group10.rss
+RESOURCE      Group11.rss
+RESOURCE      Group12.rss
+RESOURCE      Group13.rss
+RESOURCE      Group14.rss
+RESOURCE      Group15.rss
+RESOURCE      Group16.rss
+RESOURCE      Group17.rss
+RESOURCE      Group18.rss
+RESOURCE      Group19.rss
+RESOURCE      Group20.rss
+LIBRARY       euser.lib apparc.lib cone.lib eikcore.lib CKNDLG.LIB egul.lib efsrv.lib  bafl.lib

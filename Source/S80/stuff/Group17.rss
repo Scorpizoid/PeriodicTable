@@ -1,0 +1,50 @@
+// InfoDialogs.RSS
+//
+//
+
+NAME FLUO
+
+#include <eikon.rh>
+#include <eikcore.rsg>
+
+#include "InfoDialogs.hrh"
+
+RESOURCE RSS_SIGNATURE {  }
+
+/* Group 17 */
+RESOURCE TBUF r_fluorine_general { buf="Name: fluorine\nSymbol: F\nAtomic number: 9\nCategory: halogens\nGroup: 17\nPeriod: 2\nBlock: p\nAtomic weight: 18.9984032 g/mol\nElectrons per shell: 2, 7\nCAS number: 7782-41-4"; }
+RESOURCE TBUF r_fluorine_physical { buf="Phase: gas\nDensity: 1.7 g/l (0 C, 101.325 kPa)\nMelting point: 53.53 K (-219.62 C, -363.32 F)\nBoiling point: 85.03 K (-188.12 C, -306.62 F)"; }
+RESOURCE TBUF r_fluorine_atomic { buf="Crystal structure: cubic\nOxidation states: -1\nElectronegativity: 3.98 (Pauling scale)"; }
+RESOURCE TBUF r_fluorine_name { buf="Comes from: fluere\nMeaning: a Latin word which means 'to flow' -\n         fluorine was used as a flux which\n         promotes the flow of molten metals"; }
+RESOURCE TBUF r_fluorine_other { buf="- forms a single bond with itself in elemental\n  form, resulting in the diatomic F2 molecule\n- is a supremely reactive, poisonous, pale,\n  yellowish brown gas\n- is the most chemically reactive and electro-\n  negative of all the elements"; }
+RESOURCE TBUF r_fluorine_other2 { buf="- is highly dangerous because it readily burns\n  hydrocarbons, more so than other halogens such\n  as the poisonous chlorine gas\n- though F2 is too reactive to have any natural\n  biological role, fluorine is incorporated into\n  compounds with biological activity"; }
+RESOURCE TBUF r_fluorine_other3 { buf="- is not an essential nutrient, but its important\n  in preventing tooth decay is well-recognized,\n  and thus used in tooth pastes\n- has a characteristic pungent odor that is\n  detectable in concentrations as low as 20 ppb\n- the lethal dose of sodium fluoride for a 70 kg\n  human is estimated at 5–10 g"; }
+RESOURCE TBUF r_chlorine_general { buf="Name: chlorine\nSymbol: Cl\nAtomic number: 17\nCategory: halogens\nGroup: 17\nPeriod: 3\nBlock: p\nAtomic weight: 35.453 g/mol\nElectrons per shell: 2, 8, 7\nCAS number: 7782-50-5"; }
+RESOURCE TBUF r_chlorine_physical { buf="Phase: gas\nDensity: 3.2 g/l (0 C, 101.325 kPa)\nMelting point: 171.6 K (-101.5 C, -150.7 F)\nBoiling point: 239.11 K (-34.4 C, -29.27 F)"; }
+RESOURCE TBUF r_chlorine_atomic { buf="Crystal structure: orthorhombic\nOxidation states: -1, 1, 3, 5, 7\nElectronegativity: 3.16 (Pauling scale)"; }
+RESOURCE TBUF r_chlorine_name { buf="Comes from: chloros\nMeaning: a Greek word which means 'green-yellow' -\n       chlorine has a green-yellow color"; }
+RESOURCE TBUF r_chlorine_other { buf="- is abundant in nature and necessary to most forms\n  of life, including humans\n- is part of common salt and other compounds\n- is a powerful oxidant and is used in bleaching\n  and disinfectants\n- as a common disinfectant, chlorine compounds are\n  used in swimming pools to keep them clean and\n  sanitary"; }
+RESOURCE TBUF r_chlorine_other2 { buf="- in the upper atmosphere, chlorine-containing\n  molecules have been implicated in the destruction\n  of the ozone layer\n- is used in making plastics, solvents for dry\n  cleaning and metal degreasing, textiles,\n  agrochemicals and pharmaceuticals, insecticides,\n  dyestuffs, etc"; }
+RESOURCE TBUF r_chlorine_other3 { buf="- is a toxic gas that irritates the respiratory\n  system\n- when chlorine is inhaled at concentrations above\n  30ppm it begins to react with water and cells\n  which change it into hydrochloric acid (HCl)\n  and hypochlorous acid (HClO)"; }
+RESOURCE TBUF r_bromine_general { buf="Name: bromine\nSymbol: Br\nAtomic number: 35\nCategory: halogens\nGroup: 17\nPeriod: 4\nBlock: p\nAtomic weight: 79.904 g/mol\nElectrons per shell: 2, 8, 18, 7\nCAS number: 7726-95-6"; }
+RESOURCE TBUF r_bromine_physical { buf="Phase: liquid\nDensity: 3.1028 kg/l (near room temperature)\nMelting point: 265.8 K (-7.2 C, 19 F)\nBoiling point: 332.0 K (58.8 C, 137.8 F)"; }
+RESOURCE TBUF r_bromine_atomic { buf="Crystal structure: orthorhombic\nOxidation states: 5, 4, 3, 1, -1\nElectronegativity: 2.96 (Pauling scale)"; }
+RESOURCE TBUF r_bromine_name { buf="Comes from: bromos\nMeaning: a Greek word which means 'the stench of\n         he-goats' due to the characteristic\n         smell of the vapors"; }
+RESOURCE TBUF r_bromine_other { buf="- is a reddish-brown volatile liquid at standard\n  room temperature that is intermediate in\n  reactivity between chlorine and iodine\n- bromine vapours are corrosive and toxic\n- the main applications for bromine are in fire\n  retardants and fine chemicals"; }
+RESOURCE TBUF r_bromine_other2 { buf="- has no known role in human health, but\n  organobromine compounds do occur naturally\n- is toxic and causes burns\n- as an oxidizing agent, it is incompatible with\n  most organic and inorganic compounds"; }
+RESOURCE TBUF r_bromine_other3 { buf="- reacts vigorously with metals, especially in\n  the presence of water, as well as most organic\n  compounds, especially upon illumination\n- exists exclusively as bromide salts in diffuse\n  amounts in crustal rock"; }
+RESOURCE TBUF r_iodine_general { buf="Name: iodine\nSymbol: I\nAtomic number: 53\nCategory: halogens\nGroup: 17\nPeriod: 5\nBlock: p\nAtomic weight: 126.90447 g/mol\nElectrons per shell: 2, 8, 18, 18, 7\nCAS number: 7553-56-2"; }
+RESOURCE TBUF r_iodine_physical { buf="Phase: solid\nDensity: 4.933 kg/l (near room temperature)\nMelting point: 386.85 K (113.7 C, 236.66 F)\nBoiling point: 457.4 K (184.3 C, 363.7 F)"; }
+RESOURCE TBUF r_iodine_atomic { buf="Crystal structure: orthorhombic\nOxidation states: 1, 5, 7\nElectronegativity: 2.66 (Pauling scale)"; }
+RESOURCE TBUF r_iodine_name { buf="Comes from: iodes\nMeaning: a Greek word which means 'violet' due to\n         its color"; }
+RESOURCE TBUF r_iodine_other { buf="- is the second least reactive of the halogens, and\n  the second most electropositive halogen\n- does not occur in the free state in nature\n- iodine and its compounds are primarily used in\n  medicine, photography, and dyes"; }
+RESOURCE TBUF r_iodine_other2 { buf="- its compounds, the iodides, are very soluble in\n  water, and the element is concentrated in\n  seawater\n- the element is required in trace amounts by all\n  animals and some plants, being the heaviest\n  element commonly used by living organisms (only\n  tungsten, used in enzymes by a few\n  bacteria, is heavier)"; }
+RESOURCE TBUF r_iodine_other3 { buf="- iodine is a famous tester for starch - it dyes\n  the starch blue\n- its main role in animal biology is as\n  constituents of the thyroid hormones, thyroxine\n  (T4) and triiodothyronine (T3)"; }
+RESOURCE TBUF r_iodine_other4 { buf="- excess iodine has symptoms similar to those of\n  iodine deficiency - commonly encountered symptoms\n  are abnormal growth of the thyroid gland and\n  disorders in functioning and growth of the\n  organism as a whole"; }
+RESOURCE TBUF r_astatine_general { buf="Name: astatine\nSymbol: At\nAtomic number: 85\nCategory: halogens\nGroup: 17\nPeriod: 6\nBlock: p\nAtomic weight: (210) g/mol\nElectrons per shell: 2, 8, 18, 32, 18, 7\nCAS number: 7440-68-8"; }
+RESOURCE TBUF r_astatine_physical { buf="Phase: solid\nDensity: 4.933 kg/l (near room temperature)\nMelting point: 575 K (302 C, 576 F)\nBoiling point: 610 K (337 C, 639 F)"; }
+RESOURCE TBUF r_astatine_atomic { buf="Crystal structure: unknown\nOxidation states: 1, 3, 5, 7\nElectronegativity: 2.2 (Pauling scale)"; }
+RESOURCE TBUF r_astatine_name { buf="Comes from: astatos\nMeaning: a Greek word which means 'unstable' due to\n         its relatively short half-life of about 8\n         hours"; }
+RESOURCE TBUF r_astatine_other { buf="- is a radioactive element with 33 known isotopes\n  with mass numbers between 191 and 223\n- the longest-lived isotope is astatine-210, which\n  has half-life of 8.1 hours; the shortest-lived\n  known isotope is astatine-213, which has a half-\n  life of 125 nanoseconds"; }
+RESOURCE TBUF r_astatine_other2 { buf="- is produced by radioactive decay in nature, due\n  to its short half life it is found only in minute\n  amounts\n- the alpha-emitting properties of some astatine\n  isotopes are used for science applications, and\n  also medical applications for astatine 211 are\n  tested"; }
+RESOURCE TBUF r_astatine_other3 { buf="- would be expected to be a nearly black solid,\n  which, when heated, sublimes into a dark,\n  purplish vapor (darker than iodine)\n- is the least reactive of the halogens, being less\n  reactive than iodine\n- has been proposed with names dakin, helvetium,\n  alabamine and anglohelvetium"; }

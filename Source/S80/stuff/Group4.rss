@@ -1,0 +1,38 @@
+// InfoDialogs.RSS
+//
+//
+
+NAME TITA
+
+#include <eikon.rh>
+#include <eikcore.rsg>
+
+#include "InfoDialogs.hrh"
+
+RESOURCE RSS_SIGNATURE {  }
+
+/* Group 4 */
+RESOURCE TBUF r_titanium_general { buf="Name: titanium\nSymbol: Ti\nAtomic number: 22\nCategory: transition metals\nGroup: 4\nPeriod: 4\nBlock: d\nAtomic weight: 47.867 g/mol\nElectrons per shell: 2, 8, 10, 2\nCAS number: 7440-32-6"; }
+RESOURCE TBUF r_titanium_physical { buf="Phase: solid\nDensity: 4.506 kg/l (near room temperature)\nMelting point: 1941 K (1668 C, 3034 F)\nBoiling point: 3560 K (3287 C, 5949 F)"; }
+RESOURCE TBUF r_titanium_atomic { buf="Crystal structure: hexagonal\nOxidation states: 4, 3, 2, 1\nElectronegativity: 1.54 (Pauling scale)"; }
+RESOURCE TBUF r_titanium_name { buf="Comes from: The Titans of Greek"; }
+RESOURCE TBUF r_titanium_other { buf="- is a light, strong, lustrous, corrosion-\n  resistant (including to sea water and chlorine)\n  transition metal with a silver colour\n- is always bonded to other elements in nature"; }
+RESOURCE TBUF r_titanium_other2 { buf="- is used in body piercing and implants\n- is contained in meteorites"; }
+RESOURCE TBUF r_zirconium_general { buf="Name: zirconium\nSymbol: Zr\nAtomic number: 40\nCategory: transition metals\nGroup: 4\nPeriod: 5\nBlock: d\nAtomic weight: 91.224 g/mol\nElectrons per shell: 2, 8, 18, 10, 2\nCAS number: 7440-67-7"; }
+RESOURCE TBUF r_zirconium_physical { buf="Phase: solid\nDensity: 6.52 kg/l (near room temperature)\nMelting point: 2128 K (1855 C, 3371 F)\nBoiling point: 4682 K (4409 C, 7968 F)"; }
+RESOURCE TBUF r_zirconium_atomic { buf="Crystal structure: hexagonal close-packed\nOxidation states: 4, 3, 2, 1\nElectronegativity: 1.33 (Pauling scale)"; }
+RESOURCE TBUF r_zirconium_name { buf="Comes from: zargono\nMeaning: gold like"; }
+RESOURCE TBUF r_zirconium_other { buf="- is used as an alloying agent due to its high\n  resistance to corrosion\n- is never found as a native metal, but is instead\n  obtained mainly from the mineral zircon"; }
+RESOURCE TBUF r_zirconium_other2 { buf="- is a lustrous, grayish-white, soft, ductile, and\n  malleable metal\n- is highly resistant to corrosion by alkalis,\n  acids, salt water, and other agents"; }
+RESOURCE TBUF r_hafnium_general { buf="Name: hafnium\nSymbol: Hf\nAtomic number: 72\nCategory: transition metals\nGroup: 4\nPeriod: 6\nBlock: d\nAtomic weight: 17.849 g/mol\nElectrons per shell: 2, 8, 18, 32, 10, 2\nCAS number: 7440-58-6"; }
+RESOURCE TBUF r_hafnium_physical { buf="Phase: solid\nDensity: 13.31 kg/l (near room temperature)\nMelting point: 2506 K (2233 C, 4051 F)\nBoiling point: 4876 K (4603 C, 8317 F)"; }
+RESOURCE TBUF r_hafnium_atomic { buf="Crystal structure: hexagonal\nOxidation states: 4\nElectronegativity: 1.3 (Pauling scale)"; }
+RESOURCE TBUF r_hafnium_name { buf="Comes from: Hafnia\nMeaning: Copenhagen in Latin; the element was found\n         in Copenhagen in 1923"; }
+RESOURCE TBUF r_hafnium_other { buf="- is used in filaments, electrodes, and, more\n  recently in integrated circuits\n- is found combined in natural zirconium compounds\n  but it does not exist as a free element in\n  nature"; }
+RESOURCE TBUF r_hafnium_other2 { buf="- when  divided into fine particles, it is\n  pyrophoric and can ignite spontaneously in air"; }
+RESOURCE TBUF r_rutherfordium_general { buf="Name: rutherfordium\nSymbol: Rf\nAtomic number: 104\nCategory: transition metals\nGroup: 4\nPeriod: 7\nBlock: d\nAtomic weight: [267] g/mol\nElectrons per shell: 2, 8, 18, 32, 32, 10, 2\nCAS number: 53850-36-5"; }
+RESOURCE TBUF r_rutherfordium_physical { buf="Phase: presumably a solid\nDensity: unknown\nMelting point: unknown\nBoiling point: unknown"; }
+RESOURCE TBUF r_rutherfordium_atomic { buf="Crystal structure: unknown\nOxidation states: 4\nElectronegativity: unknown"; }
+RESOURCE TBUF r_rutherfordium_name { buf="Comes from: Ernest Rutherford\nMeaning: The father of nuclear physics"; }
+RESOURCE TBUF r_rutherfordium_other { buf="- is a synthetic element that is not present\n  in the environment at all\n- isolation of an observable quantity of\n  rutherfordium has never been achieved"; }
+RESOURCE TBUF r_rutherfordium_other2 { buf="- its most stable isotope, rutherfordium-267,\n  has a half-life of approximately 1.3 hours"; }
