@@ -1,0 +1,69 @@
+/*
+* ==============================================================================
+*  Name        : Periodictable.mmp
+*  Part of     : Periodictable
+*  Interface   : Browser Control API
+*  Description : This is the project specification file
+		for Periodictable.
+*  Version     : 
+*
+*  Copyright (c) 2005-2006 Nokia Corporation.
+*  This material, including documentation and any related 
+*  computer programs, is protected by copyright controlled by 
+*  Nokia Corporation.
+* ==============================================================================
+*/
+
+TARGET      Periodictable.exe
+TARGETTYPE  exe
+UID  0x100039CE 0x20026289
+EPOCSTACKSIZE	  0x5000
+
+EPOCHEAPSIZE 0x5000 0x1000000
+
+VENDORID    0
+
+CAPABILITY	NetworkServices WriteDeviceData ReadDeviceData
+
+
+SOURCEPATH ..\src
+SOURCE  Periodictable.cpp
+SOURCE  PeriodictableUi.cpp
+SOURCE  PeriodictableDocument.cpp
+SOURCE  PeriodictableContainer.cpp
+SOURCE	KeyEvents.cpp
+
+
+START RESOURCE ..\data\Periodictable.rss
+HEADER
+TARGETPATH resource\apps
+LANG	SC
+END
+
+START BITMAP    Periodictable.mbm
+TARGETPATH      \Resource\Apps
+SOURCE          c24,1 icon.bmp icon_mask.bmp
+END
+
+
+START RESOURCE ..\data\Periodictable_reg.rss
+#ifdef WINSCW
+TARGETPATH 	  \private\10003a3f\apps
+#else
+TARGETPATH 	  \private\10003a3f\import\apps
+#endif
+END
+
+USERINCLUDE .
+USERINCLUDE ..\inc
+
+SYSTEMINCLUDE   . \epoc32\include
+
+LIBRARY euser.lib apparc.lib cone.lib eikcore.lib
+LIBRARY avkon.lib apmime.lib apgrfx.lib efsrv.lib eikcoctl.lib commonui.lib ecom.lib
+LIBRARY eikdlg.lib gdi.lib bitgdi.lib
+LIBRARY fbscli.lib
+
+LIBRARY browserengine.lib
+
+

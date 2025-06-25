@@ -1,0 +1,147 @@
+/*
+* ==============================================================================
+*  Name        : bld.inf
+*  Part of     : Periodictable
+*  Interface   : 
+*  Description : This file provides the information required
+		for building the whole of a Periodictable.
+*  Version     : 
+*
+*  Copyright (c) 2005-2006 Nokia Corporation.
+*  This material, including documentation and any related 
+*  computer programs, is protected by copyright controlled by 
+*  Nokia Corporation.
+* ==============================================================================
+*/
+
+PRJ_PLATFORMS
+
+// Export the sample html pages to a location where the emulator (WINSCW) can find them
+
+PRJ_EXPORTS
+..\elements\hydrogen.html       ..\winscw\c\private\20026289\hydrogen.html
+..\elements\helium.html       ..\winscw\c\private\20026289\helium.html
+..\elements\lithium.html       ..\winscw\c\private\20026289\lithium.html
+..\elements\beryllium.html       ..\winscw\c\private\20026289\beryllium.html
+..\elements\boron.html       ..\winscw\c\private\20026289\boron.html
+..\elements\carbon.html       ..\winscw\c\private\20026289\carbon.html
+..\elements\nitrogen.html       ..\winscw\c\private\20026289\nitrogen.html
+..\elements\oxygen.html       ..\winscw\c\private\20026289\oxygen.html
+..\elements\fluorine.html       ..\winscw\c\private\20026289\fluorine.html
+..\elements\neon.html       ..\winscw\c\private\20026289\neon.html
+..\elements\sodium.html       ..\winscw\c\private\20026289\sodium.html
+..\elements\magnesium.html       ..\winscw\c\private\20026289\magnesium.html
+..\elements\aluminium.html       ..\winscw\c\private\20026289\aluminium.html
+..\elements\silicon.html       ..\winscw\c\private\20026289\silicon.html
+..\elements\phosphorus.html       ..\winscw\c\private\20026289\phosphorus.html
+..\elements\sulphur.html       ..\winscw\c\private\20026289\sulphur.html
+..\elements\chlorine.html       ..\winscw\c\private\20026289\chlorine.html
+..\elements\argon.html       ..\winscw\c\private\20026289\argon.html
+..\elements\potassium.html       ..\winscw\c\private\20026289\potassium.html
+..\elements\calcium.html       ..\winscw\c\private\20026289\calcium.html
+..\elements\scandium.html       ..\winscw\c\private\20026289\scandium.html
+..\elements\titanium.html       ..\winscw\c\private\20026289\titanium.html
+..\elements\vanadium.html       ..\winscw\c\private\20026289\vanadium.html
+..\elements\chromium.html       ..\winscw\c\private\20026289\chromium.html
+..\elements\manganese.html       ..\winscw\c\private\20026289\manganese.html
+..\elements\iron.html       ..\winscw\c\private\20026289\iron.html
+..\elements\cobalt.html       ..\winscw\c\private\20026289\cobalt.html
+..\elements\nickel.html       ..\winscw\c\private\20026289\nickel.html
+..\elements\copper.html       ..\winscw\c\private\20026289\copper.html
+..\elements\zinc.html       ..\winscw\c\private\20026289\zinc.html
+..\elements\gallium.html       ..\winscw\c\private\20026289\gallium.html
+..\elements\germanium.html       ..\winscw\c\private\20026289\germanium.html
+..\elements\arsenic.html       ..\winscw\c\private\20026289\arsenic.html
+..\elements\selenium.html       ..\winscw\c\private\20026289\selenium.html
+..\elements\bromine.html       ..\winscw\c\private\20026289\bromine.html
+..\elements\krypton.html       ..\winscw\c\private\20026289\krypton.html
+..\elements\rubidium.html       ..\winscw\c\private\20026289\rubidium.html
+..\elements\strontium.html       ..\winscw\c\private\20026289\strontium.html
+..\elements\yttrium.html       ..\winscw\c\private\20026289\yttrium.html
+..\elements\zirconium.html       ..\winscw\c\private\20026289\zirconium.html
+..\elements\niobium.html       ..\winscw\c\private\20026289\niobium.html
+..\elements\molybdenum.html       ..\winscw\c\private\20026289\molybdenum.html
+..\elements\technetium.html       ..\winscw\c\private\20026289\technetium.html
+..\elements\ruthenium.html       ..\winscw\c\private\20026289\ruthenium.html
+..\elements\rhodium.html       ..\winscw\c\private\20026289\rhodium.html
+..\elements\palladium.html       ..\winscw\c\private\20026289\palladium.html
+..\elements\silver.html       ..\winscw\c\private\20026289\silver.html
+..\elements\cadmium.html       ..\winscw\c\private\20026289\cadmium.html
+..\elements\indium.html       ..\winscw\c\private\20026289\indium.html
+..\elements\tin.html       ..\winscw\c\private\20026289\tin.html
+..\elements\antimony.html       ..\winscw\c\private\20026289\antimony.html
+..\elements\tellurium.html       ..\winscw\c\private\20026289\tellurium.html
+..\elements\iodine.html       ..\winscw\c\private\20026289\iodine.html
+..\elements\xenon.html       ..\winscw\c\private\20026289\xenon.html
+..\elements\caesium.html       ..\winscw\c\private\20026289\caesium.html
+..\elements\barium.html       ..\winscw\c\private\20026289\barium.html
+..\elements\lanthanum.html       ..\winscw\c\private\20026289\lanthanum.html
+..\elements\cerium.html       ..\winscw\c\private\20026289\cerium.html
+..\elements\praseodymium.html       ..\winscw\c\private\20026289\praseodymium.html
+..\elements\neodymium.html       ..\winscw\c\private\20026289\neodymium.html
+..\elements\promethium.html       ..\winscw\c\private\20026289\promethium.html
+..\elements\samarium.html       ..\winscw\c\private\20026289\samarium.html
+..\elements\europium.html       ..\winscw\c\private\20026289\europium.html
+..\elements\gadolinium.html       ..\winscw\c\private\20026289\gadolinium.html
+..\elements\terbium.html       ..\winscw\c\private\20026289\terbium.html
+..\elements\dysprosium.html       ..\winscw\c\private\20026289\dysprosium.html
+..\elements\holmium.html       ..\winscw\c\private\20026289\holmium.html
+..\elements\erbium.html       ..\winscw\c\private\20026289\erbium.html
+..\elements\thulium.html       ..\winscw\c\private\20026289\thulium.html
+..\elements\ytterbium.html       ..\winscw\c\private\20026289\ytterbium.html
+..\elements\lutetium.html       ..\winscw\c\private\20026289\lutetium.html
+..\elements\hafnium.html       ..\winscw\c\private\20026289\hafnium.html
+..\elements\tantalum.html       ..\winscw\c\private\20026289\tantalum.html
+..\elements\tungsten.html       ..\winscw\c\private\20026289\tungsten.html
+..\elements\rhenium.html       ..\winscw\c\private\20026289\rhenium.html
+..\elements\osmium.html       ..\winscw\c\private\20026289\osmium.html
+..\elements\iridium.html       ..\winscw\c\private\20026289\iridium.html
+..\elements\platinum.html       ..\winscw\c\private\20026289\platinum.html
+..\elements\gold.html       ..\winscw\c\private\20026289\gold.html
+..\elements\mercury.html       ..\winscw\c\private\20026289\mercury.html
+..\elements\thallium.html       ..\winscw\c\private\20026289\thallium.html
+..\elements\lead.html       ..\winscw\c\private\20026289\lead.html
+..\elements\bismuth.html       ..\winscw\c\private\20026289\bismuth.html
+..\elements\polonium.html       ..\winscw\c\private\20026289\polonium.html
+..\elements\astatine.html       ..\winscw\c\private\20026289\astatine.html
+..\elements\radon.html       ..\winscw\c\private\20026289\radon.html
+..\elements\francium.html       ..\winscw\c\private\20026289\francium.html
+..\elements\radium.html       ..\winscw\c\private\20026289\radium.html
+..\elements\actinium.html       ..\winscw\c\private\20026289\actinium.html
+..\elements\thorium.html       ..\winscw\c\private\20026289\thorium.html
+..\elements\protactinium.html       ..\winscw\c\private\20026289\protactinium.html
+..\elements\uranium.html       ..\winscw\c\private\20026289\uranium.html
+..\elements\neptunium.html       ..\winscw\c\private\20026289\neptunium.html
+..\elements\plutonium.html       ..\winscw\c\private\20026289\plutonium.html
+..\elements\americium.html       ..\winscw\c\private\20026289\americium.html
+..\elements\curium.html       ..\winscw\c\private\20026289\curium.html
+..\elements\berkelium.html       ..\winscw\c\private\20026289\berkelium.html
+..\elements\californium.html       ..\winscw\c\private\20026289\californium.html
+..\elements\einsteinium.html       ..\winscw\c\private\20026289\einsteinium.html
+..\elements\fermium.html       ..\winscw\c\private\20026289\fermium.html
+..\elements\mendelevium.html       ..\winscw\c\private\20026289\mendelevium.html
+..\elements\nobelium.html       ..\winscw\c\private\20026289\nobelium.html
+..\elements\lawrencium.html       ..\winscw\c\private\20026289\lawrencium.html
+..\elements\rutherfordium.html       ..\winscw\c\private\20026289\rutherfordium.html
+..\elements\dubnium.html       ..\winscw\c\private\20026289\dubnium.html
+..\elements\seaborgium.html       ..\winscw\c\private\20026289\seaborgium.html
+..\elements\bohrium.html       ..\winscw\c\private\20026289\bohrium.html
+..\elements\hassium.html       ..\winscw\c\private\20026289\hassium.html
+..\elements\meitnerium.html       ..\winscw\c\private\20026289\meitnerium.html
+..\elements\darmstadtium.html       ..\winscw\c\private\20026289\darmstadtium.html
+..\elements\roentgenium.html       ..\winscw\c\private\20026289\roentgenium.html
+..\elements\copernicium.html       ..\winscw\c\private\20026289\copernicium.html
+..\elements\flerovium.html       ..\winscw\c\private\20026289\flerovium.html
+..\elements\livermorium.html       ..\winscw\c\private\20026289\livermorium.html
+..\elements\about.html       ..\winscw\c\private\20026289\about.html
+..\gfx\background.mbm       ..\winscw\c\private\20026289\background.mbm
+..\gfx\cursor.mbm       ..\winscw\c\private\20026289\cursor.mbm
+
+// If EKA2 Kernel Architecture is supported, assume S60 3rd Edition Platform
+
+PRJ_MMPFILES
+
+//gnumakefile Icons_scalable_dc.mk
+
+Periodictable.mmp
+
