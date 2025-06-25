@@ -1,0 +1,15 @@
+// SigCheck.rh
+//
+
+// for defining text resources
+STRUCT STRING
+	{
+	TEXT text;
+	}
+
+// for first resource in file, for ConfirmSignature()
+STRUCT SIGNATURE
+	{
+	LONG version;
+	SRLINK self;
+	}

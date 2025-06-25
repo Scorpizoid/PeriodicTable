@@ -1,0 +1,17 @@
+// PeriodicTable.hrh
+//
+//
+
+enum TExampleCbaButtons
+	{
+	ECbaButton0 = 100,
+	ECbaButton1,
+	ECbaButton2,
+	ECbaButton3
+	};
+
+enum TExampleMenuCommands
+	{
+	EExampleAboutDialog = 200,
+	EExampleTableColoursDialog
+	};

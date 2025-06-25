@@ -1,0 +1,126 @@
+// InfoDialogs.RSS
+//
+//
+
+NAME ACTI
+
+#include <eikon.rh>
+#include <eikcore.rsg>
+
+#include "PeriodicTable.hrh"
+
+RESOURCE RSS_SIGNATURE {  }
+
+/* Actinides */
+RESOURCE TBUF r_actinium_general { buf="Name: actinium \nSymbol: Ac\nAtomic number: 89\nCategory: actinides\nGroup: 3\nPeriod: 7\nBlock: f\nAtomic weight: (227) g/mol\nElectrons per shell: 2, 8, 18, 32, 18, 9, 2\nCAS number: 7440-34-8"; }
+RESOURCE TBUF r_actinium_physical { buf="Phase: solid\nDensity: 10 kg/l (near room temperature)\nMelting point: (circa) 1323 K (1050°C, 1922°F)\nBoiling point: 3471 K (3198°C, 5788°F)"; }
+RESOURCE TBUF r_actinium_atomic { buf="Crystal structure: cubic face centered\nOxidation states: 3\nElectronegativity: 1.1 (Pauling scale)"; }
+RESOURCE TBUF r_actinium_name { buf="Comes from: aktinos\nMeaning: a Greek word which means a beam"; }
+RESOURCE TBUF r_actinium_other { buf="- was the first non-primordial radioactive element\n  to be isolated, although polonium, radium and\n  radon were observed before, but not isolated\n  until 1902\n- gave the name to the actinoid series\n- is a silvery, radioactive, metallic element"; }
+RESOURCE TBUF r_actinium_other2 { buf="- due to its intense radioactivity, actinium glows\n  in the dark with a pale blue light\n- is found in trace amounts in uranium ore, but\n  more commonly is made in milligram amounts by\n  the neutron irradiation of radium-226 in a\n  nuclear reactor"; }
+RESOURCE TBUF r_actinium_other3 { buf="- actinium metal has been prepared by the\n  reduction of actinium fluoride with lithium\n  vapor at about 1100 to 1300°C\n- is about 150 times as radioactive as radium,\n  making it valuable as a neutron source for\n  energy"; }
+RESOURCE TBUF r_actinium_other4 { buf="- has no significant industrial applications\n- is even more dangerous than plutonium, and\n  ingesting even small amounts of actinium-227\n  would be fatal\n- naturally occurring actinium is composed of 1\n  radioactive isotope with a half-life of 21.772\n  years"; }
+RESOURCE TBUF r_thorium_general { buf="Name: thorium \nSymbol: Th\nAtomic number: 90\nCategory: actinides\nGroup: n/a\nPeriod: 7\nBlock: f\nAtomic weight: 232.0381 g/mol\nElectrons per shell: 2, 8, 18, 32, 18, 10, 2\nCAS number: 7440-29-1"; }
+RESOURCE TBUF r_thorium_physical { buf="Phase: solid\nDensity: 11.7 kg/l (near room temperature)\nMelting point: 2115 K (1842°C, 3348°F)\nBoiling point: 5061 K (4788°C, 8650°F)"; }
+RESOURCE TBUF r_thorium_atomic { buf="Crystal structure: cubic face centered\nOxidation states: 4\nElectronegativity: 1.3 (Pauling scale)"; }
+RESOURCE TBUF r_thorium_name { buf="Comes from: Thor\nMeaning: the Norse god of thunder - the element\n         was discovered in Norway"; }
+RESOURCE TBUF r_thorium_other { buf="- is a silvery-white metal which is air-stable and\n  retains its luster for several months\n- when contaminated with the oxide, thorium slowly\n  tarnishes in air, becoming gray and finally\n  black\n- is soft, very ductile, and can be cold-rolled,\n  swaged, and drawn"; }
+RESOURCE TBUF r_thorium_other2 { buf="- powdered thorium metal is often pyrophoric and\n  should be carefully handled\n- is used e.g. as an alloying agent in magnesium,\n  in uranium-thorium age dating and as a radiation\n  shield"; }
+RESOURCE TBUF r_thorium_other3 { buf="- is found in small amounts in most rocks and\n  soils, where it is about four times more abundant\n  than uranium, and is about as common as lead\n- decays very slowly compared to many other\n  radioactive materials, and the alpha radiation\n  emitted cannot penetrate human skin"; }
+RESOURCE TBUF r_thorium_other4 { buf="- owning and handling small amounts of thorium,\n  such as a gas mantle, is considered safe if care\n  is taken not to ingest the thorium - lungs and\n  other internal organs can be penetrated by alpha\n  radiation"; }
+RESOURCE TBUF r_thorium_other5 { buf="- exposure to an aerosol of thorium can lead to\n  increased risk of cancers of the lung, pancreas\n  and blood"; }
+RESOURCE TBUF r_protactinium_general { buf="Name: protactinium \nSymbol: Pa\nAtomic number: 91\nCategory: actinides\nGroup: n/a\nPeriod: 7\nBlock: f\nAtomic weight: 231.03588 g/mol\nElectrons per shell: 2, 8, 18, 32, 20, 9, 2\nCAS number: 7440-13-3"; }
+RESOURCE TBUF r_protactinium_physical { buf="Phase: solid\nDensity: 15.37 kg/l (near room temperature)\nMelting point: 1841 K (1568°C, 2854°F)\nBoiling point: 4300 K (4027°C, 7280°F)"; }
+RESOURCE TBUF r_protactinium_atomic { buf="Crystal structure: orthorhombic\nOxidation states: 2, 3, 4, 5\nElectronegativity: 1.5 (Pauling scale)"; }
+RESOURCE TBUF r_protactinium_name { buf="Comes from: protoactinium\nMeaning: means 'first actinium' as its first\n         product is the element actinium"; }
+RESOURCE TBUF r_protactinium_other { buf="- is a silver metallic element that belongs to the\n  actinoid group, with a bright metallic luster\n  that it retains for some time in the air\n- due to its scarcity, high radioactivity, and\n  toxicity, there are currently no uses for\n  protactinium outside of basic scientific\n  research"; }
+RESOURCE TBUF r_protactinium_other2 { buf="- twenty-nine radioisotopes of protactinium have\n  been characterized, with the most stable being\n  protactinium-231 with a half life of 32760\n  years\n- is both toxic and highly radioactive"; }
+RESOURCE TBUF r_protactinium_other3 { buf="- requires precautions similar to those used when\n  handling plutonium\n- its most common ore, pitchblende, contains about\n  0.1 ppm of protactinium"; }
+RESOURCE TBUF r_uranium_general { buf="Name: uranium \nSymbol: U\nAtomic number: 92\nCategory: actinides\nGroup: n/a\nPeriod: 7\nBlock: f\nAtomic weight: 238.02891 g/mol\nElectrons per shell: 2, 8, 18, 32, 21, 9, 2\nCAS number: 7440-61-1"; }
+RESOURCE TBUF r_uranium_physical { buf="Phase: solid\nDensity: 19.1 kg/l (near room temperature)\nMelting point: 1405.3 K (1132.3°C, 2070°F)\nBoiling point: 4404 K (4131°C, 7468°F)"; }
+RESOURCE TBUF r_uranium_atomic { buf="Crystal structure: orthorhombic\nOxidation states: 3, 4, 5, 6\nElectronegativity: 1.38 (Pauling scale)"; }
+RESOURCE TBUF r_uranium_name { buf="Comes from: Uranus\nMeaning: the planet in the Solar System"; }
+RESOURCE TBUF r_uranium_other { buf="- is a silvery white, weakly radioactive metal,\n  which is slightly softer than steel, strongly\n  electropositive and a poor electrical conductor\n- is malleable, ductile, and slightly paramagnetic\n- has very high density, being approximately 70%\n  denser than lead"; }
+RESOURCE TBUF r_uranium_other2 { buf="- in nature, uranium atoms exist as uranium-238\n  (99.284%), uranium-235 (0.711%),[2] and a very\n  small amount of uranium-234 (0.0058%)\n- is used e.g. in the nuclear reactors, bombs and\n  as a colorant in uranium glass, producing orange-\n  red to lemon yellow hues"; }
+RESOURCE TBUF r_uranium_other3 { buf="- the half-life of uranium-238 is about 4.47\n  billion years and that of uranium-235 is 704\n  million years, making them useful\n  in dating the age of the Earth\n- normal functioning of the kidney, brain, liver,\n  heart, and other systems can be affected by"; }
+RESOURCE TBUF r_uranium_other4 { buf="  uranium exposure, because, in addition to being\n  weakly radioactive, uranium is a toxic metal\n- finely divided uranium metal presents a fire\n  hazard because uranium is pyrophoric; small\n  grains will ignite spontaneously in air at\n  room temperature"; }
+RESOURCE TBUF r_neptunium_general { buf="Name: neptunium \nSymbol: Np\nAtomic number: 93\nCategory: actinides\nGroup: n/a\nPeriod: 7\nBlock: f\nAtomic weight: (237) g/mol\nElectrons per shell: 2, 8, 18, 32, 22, 9, 2\nCAS number: 7439-99-8"; }
+RESOURCE TBUF r_neptunium_physical { buf="Phase: solid\nDensity: 20.45 kg/l (near room temperature)\nMelting point: 910 K (637°C, 1179°F)\nBoiling point: 4273 K (4000°C, 7232°F)"; }
+RESOURCE TBUF r_neptunium_atomic { buf="Crystal structure: orthorhombic, tetragonal\n       and cubic\nOxidation states: 3, 4, 5, 6\nElectronegativity: 1.36 (Pauling scale)"; }
+RESOURCE TBUF r_neptunium_name { buf="Comes from: Neptunus\nMeaning: the planet in the Solar System"; }
+RESOURCE TBUF r_neptunium_other { buf="- is silvery in color\n- is found in three allotropes: alpha-, beta- and\n  gamma-neptunium\n- is fissionable, and could theoretically be used\n  as fuel in a fast neutron reactor or a nuclear\n  weapon"; }
+RESOURCE TBUF r_neptunium_other2 { buf="- is also used in neutron detection devices\n- trace amounts of neptunium are found naturally\n  as decay products from transmutation reactions\n  in uranium ores"; }
+RESOURCE TBUF r_neptunium_other3 { buf="- due to its long half life neptunium becomes the\n  major contributor of the total radiation in\n  10000 years\n- is fairly chemically reactive"; }
+RESOURCE TBUF r_plutonium_general { buf="Name: plutonium \nSymbol: Pu\nAtomic number: 94\nCategory: actinides\nGroup: n/a\nPeriod: 7\nBlock: f\nAtomic weight: (244) g/mol\nElectrons per shell: 2, 8, 18, 32, 24, 8, 2\nCAS number: 7440-07-5"; }
+RESOURCE TBUF r_plutonium_physical { buf="Phase: solid\nDensity: 19.816 kg/l (near room temperature)\nMelting point: 912.5 K (639.4°C, 1182.9°F)\nBoiling point: 3505 K (3228°C, 5842°F)"; }
+RESOURCE TBUF r_plutonium_atomic { buf="Crystal structure: monoclinic\nOxidation states: 3, 4, 5, 6\nElectronegativity: 1.28 (Pauling scale)"; }
+RESOURCE TBUF r_plutonium_name { buf="Comes from: Pluto\nMeaning: the planet in the Solar System"; }
+RESOURCE TBUF r_plutonium_other { buf="- has a bright silvery appearance at first, much\n  like nickel, but it oxidizes very quickly to\n  a dull gray, although yellow and olive green are\n  also reported\n- is about as hard and brittle as grey cast iron\n  unless it is alloyed with other metals to make\n  it soft and ductile"; }
+RESOURCE TBUF r_plutonium_other2 { buf="- is not a good conductor of heat or electricity\n- has six allotropes, from alpha- to zeta-\n  plutonium\n- has wenty radioactive isotopes, of which the\n  longest-lived is plutonium-244, with a half-life\n  of 80.8 million years"; }
+RESOURCE TBUF r_plutonium_other3 { buf="- the most important isotope of plutonium is\n  plutonium-239, with a half-life of 24,100 years\n- when exposed to moist air, it forms oxides and\n  hydrides that expand the sample up to 70% in\n  volume, which in turn flake off as a powder that\n  can spontaneously ignite"; }
+RESOURCE TBUF r_plutonium_other4 { buf="- is used in nuclear weapons and use in some\n  nuclear reactors\n- is also a radioactive poison that accumulates in\n  bone marrow\n- reacts with carbon, halogens, nitrogen and\n  silicon"; }
+RESOURCE TBUF r_americium_general { buf="Name: americium \nSymbol: Am\nAtomic number: 95\nCategory: actinides\nGroup: n/a\nPeriod: 7\nBlock: f\nAtomic weight: (243) g/mol\nElectrons per shell: 2, 8, 18, 32, 25, 8, 2\nCAS number: 7440-35-9"; }
+RESOURCE TBUF r_americium_physical { buf="Phase: solid\nDensity: 12 kg/l (near room temperature)\nMelting point: 1449 K (1176°C, 2149°F)\nBoiling point: 2880 K (2607°C, 4725°F)"; }
+RESOURCE TBUF r_americium_atomic { buf="Crystal structure: hexagonal\nOxidation states: 3, 4, 5, 6\nElectronegativity: 1.3 (Pauling scale)"; }
+RESOURCE TBUF r_americium_name { buf="Comes from: America\nMeaning: by analogy with europium which was named\n         after Europe"; }
+RESOURCE TBUF r_americium_other { buf="- has a silvery and white luster\n- slowly tarnishes in dry air\n- is more silvery than plutonium or neptunium and\n  apparently more malleable than neptunium or\n  uranium"; }
+RESOURCE TBUF r_americium_other2 { buf="- is unlikely that Americium would be used as a\n  weapons material, as its minimum critical mass\n  is considerably larger than that of more readily\n  obtained plutonium or uranium isotopes"; }
+RESOURCE TBUF r_americium_other3 { buf="- is widely used in commercial ionization-chamber\n  smoke detectors as well as in neutron sources\n  and industrial gauges\n- eighteen radioisotopes of americium have been\n  characterized, with the most stable being\n  americium-243 with a half-life of 7370 years"; }
+RESOURCE TBUF r_americium_other4 { buf="- americium-241 has recently been suggested for use\n  as a denaturing agent in plutonium reactor fuel\n  rods to render the fuel unusable for conversion\n  to nuclear weapons"; }
+RESOURCE TBUF r_curium_general { buf="Name: curium \nSymbol: Cm\nAtomic number: 96\nCategory: actinides\nGroup: n/a\nPeriod: 7\nBlock: f\nAtomic weight: (247) g/mol\nElectrons per shell: 2, 8, 18, 32, 25, 9, 2\nCAS number: 7440-51-9"; }
+RESOURCE TBUF r_curium_physical { buf="Phase: solid\nDensity: 13.51 kg/l (near room temperature)\nMelting point: 1613 K (1340°C, 2444°F)\nBoiling point: 3383 K (3110°C, 5630°F)"; }
+RESOURCE TBUF r_curium_atomic { buf="Crystal structure: hexagonal close-packed\nOxidation states: 3\nElectronegativity: 1.3 (Pauling scale)"; }
+RESOURCE TBUF r_curium_name { buf="Comes from: Marie and Pierre Curie\nMeaning: the physicists who discovered new elements\n         (not curium though)"; }
+RESOURCE TBUF r_curium_other { buf="- is a synthetic chemical element\n- a radioactive metallic transuranic element\n- is produced by bombarding plutonium with alpha\n  particles (helium ions)"; }
+RESOURCE TBUF r_curium_other2 { buf="- 19 radioisotopes of curium have been\n  characterized, with the most stable being\n  curium-247 with a half-life of 1.56 × 10^7 years\n- the isotope curium-248 has been synthesized only\n  in milligram quantities, but curium-242 and\n  curium-244 are made in multigram amounts"; }
+RESOURCE TBUF r_curium_other3 { buf="- there are few commercial applications for curium\n  but it may one day be useful in radioisotope\n  thermoelectric generators\n- curium bio-accumulates in bone tissue where its\n  radiation destroys bone marrow and thus stops red\n  blood cell creation"; }
+RESOURCE TBUF r_curium_other4 { buf="- is silvery-white in color and the element is more\n  electro-positive than aluminium"; }
+RESOURCE TBUF r_berkelium_general { buf="Name: berkelium \nSymbol: Bk\nAtomic number: 97\nCategory: actinides\nGroup: n/a\nPeriod: 7\nBlock: f\nAtomic weight: (247) g/mol\nElectrons per shell: 2, 8, 18, 32, 27, 8, 2\nCAS number: 7440-40-6"; }
+RESOURCE TBUF r_berkelium_physical { buf="Phase: solid\nDensity: 14.78 kg/l (alpha) (near room temperature)\n        13.25 kg/l (beta) (near room temperature)\nMelting point: (beta) 1259 K (986°C, 1807°F)\nBoiling point: unknown"; }
+RESOURCE TBUF r_berkelium_atomic { buf="Crystal structure: hexagonal close-packed\nOxidation states: 3, 4\nElectronegativity: 1.3 (Pauling scale)"; }
+RESOURCE TBUF r_berkelium_name { buf="Comes from: Berkeley\nMeaning: a research group in University of\n         California, Berkeley discovered the\n         element"; }
+RESOURCE TBUF r_berkelium_other { buf="- a radioactive metal\n- was first synthesized by bombarding americium\n  with alpha particles (helium ions)\n- was the fifth transuranic element to be\n  synthesized"; }
+RESOURCE TBUF r_berkelium_other2 { buf="- is a silvery metal that would easily oxidize in\n  air at elevated temperatures and would be soluble\n  in dilute mineral acids\n- 19 radioisotopes of berkelium have been\n  characterized, with the most stable being\n  berkelium-247 with a half-life of 1380 years"; }
+RESOURCE TBUF r_berkelium_other3 { buf="- like other actinides, berkelium bio-accumulates\n  in skeletal tissue\n- has no known uses outside of basic research\n- plays no biological role"; }
+RESOURCE TBUF r_californium_general { buf="Name: californium \nSymbol: Cf\nAtomic number: 98\nCategory: actinides\nGroup: n/a\nPeriod: 7\nBlock: f\nAtomic weight: (251) g/mol\nElectrons per shell: 2, 8, 18, 32, 28, 8, 2\nCAS number: 7440-71-3"; }
+RESOURCE TBUF r_californium_physical { buf="Phase: solid\nDensity: 15.1 kg/l (near room temperature)\nMelting point: 1173 K (900°C, 1652°F)\nBoiling point: 1743 K (1470°C, 2678°F)"; }
+RESOURCE TBUF r_californium_atomic { buf="Crystal structure: hexagonal\nOxidation states: 2, 3, 4\nElectronegativity: 1.3 (Pauling scale)"; }
+RESOURCE TBUF r_californium_name { buf="Comes from: California\nMeaning: a research group in University of\n         California, Berkeley discovered the\n         element and named it after the state"; }
+RESOURCE TBUF r_californium_other { buf="- a radioactive transuranic element\n- is used in starting nuclear reactors, optimizing\n  coal-fired power plants and cement production\n  facilities (via online analyzers), medical\n  treatment of cancer, and oil exploration via down\n  hole well logging"; }
+RESOURCE TBUF r_californium_other2 { buf="- was first produced by bombarding curium with\n  alpha particles (helium ions)\n- twenty radioisotopes of californium have been\n  characterized, the most stable being californium-\n  251 with a half-life of 898 years"; }
+RESOURCE TBUF r_californium_other3 { buf="- although californium does not occur naturally on\n  Earth, the element and its decay products occur\n  elsewhere in the universe\n- has no biological role and only a few californium\n  compounds have been made and studied\n- is extremely radioactive and harmful"; }
+RESOURCE TBUF r_einsteinium_general { buf="Name: einsteinium \nSymbol: Es\nAtomic number: 99\nCategory: actinides\nGroup: n/a\nPeriod: 7\nBlock: f\nAtomic weight: (252) g/mol\nElectrons per shell: 2, 8, 18, 32, 29, 8, 2\nCAS number: 7429-92-7"; }
+RESOURCE TBUF r_einsteinium_physical { buf="Phase: solid\nDensity: 8.84 kg/l (near room temperature)\nMelting point: 1133 K (860°C, 1580°F)\nBoiling point: unknown"; }
+RESOURCE TBUF r_einsteinium_atomic { buf="Crystal structure: unknown\nOxidation states: 2, 3, 4\nElectronegativity: 1.3 (Pauling scale)"; }
+RESOURCE TBUF r_einsteinium_name { buf="Comes from: Albert Einstein\nMeaning: in honor of the theoretical physicist"; }
+RESOURCE TBUF r_einsteinium_other { buf="- is a metallic synthetic element\n- its chemical and physical properties are similar\n  to other metals\n- though only small amounts have ever been made, it\n  has been determined to be silver-colored"; }
+RESOURCE TBUF r_einsteinium_other2 { buf="- like all synthetic elements, isotopes of\n  einsteinium are extremely radioactive, and are\n  considered highly toxic\n- does not occur naturally in any measurable\n  quantities"; }
+RESOURCE TBUF r_einsteinium_other3 { buf="- the modern process of creating the element starts\n  with the irradiation of plutonium-239 in a\n  nuclear reactor for several years\n- has no known uses, other than radioactivity"; }
+RESOURCE TBUF r_einsteinium_other4 { buf="- nineteen radioisotopes of einsteinium have been\n  characterized, with the most stable being\n  einsteinium-252 with a half-life of 471.7 days"; }
+RESOURCE TBUF r_fermium_general { buf="Name: fermium \nSymbol: Fm\nAtomic number: 100\nCategory: actinides\nGroup: n/a\nPeriod: 7\nBlock: f\nAtomic weight: (257) g/mol\nElectrons per shell: 2, 8, 18, 32, 30, 8, 2\nCAS number: 7440-72-4"; }
+RESOURCE TBUF r_fermium_physical { buf="Phase: solid\nDensity: unknown\nMelting point: 1800 K (1527°C, 2781°F)\nBoiling point: unknown"; }
+RESOURCE TBUF r_fermium_atomic { buf="Crystal structure: unknown\nOxidation states: 2, 3\nElectronegativity: 1.3 (Pauling scale)"; }
+RESOURCE TBUF r_fermium_name { buf="Comes from: Enrico Fermi\nMeaning: in honor of the nuclear physicist"; }
+RESOURCE TBUF r_fermium_other { buf="- is a highly radioactive metallic transuranic\n  element\n- is made by bombarding plutonium with neutrons\n- only small amounts of fermium have ever been\n  produced or isolated - thus relatively little is\n  known about its chemical properties"; }
+RESOURCE TBUF r_fermium_other2 { buf="- there are no known uses of fermium outside of\n  basic research\n- does not occur naturally in any measurable\n  quantities\n- 17 radioisotopes of fermium have been\n  characterized, with the most stable being\n  fermium-257 with a half-life of 100.5 days"; }
+RESOURCE TBUF r_fermium_other3 { buf="- fermium-255 was found in the debris of the first\n  hydrogen bomb explosion"; }
+RESOURCE TBUF r_mendelevium_general { buf="Name: mendelevium \nSymbol: Md\nAtomic number: 101\nCategory: actinides\nGroup: n/a\nPeriod: 7\nBlock: f\nAtomic weight: (258) g/mol\nElectrons per shell: 2, 8, 18, 32, 31, 8, 2\nCAS number: 7440-11-1"; }
+RESOURCE TBUF r_mendelevium_physical { buf="Phase: solid\nDensity: unknown\nMelting point: 1100 K (827°C, 1521°F)\nBoiling point: unknown"; }
+RESOURCE TBUF r_mendelevium_atomic { buf="Crystal structure: unknown\nOxidation states: 2, 3\nElectronegativity: 1.3 (Pauling scale)"; }
+RESOURCE TBUF r_mendelevium_name { buf="Comes from: Dmitri Mendeleev\nMeaning: in honor of the inventor of the periodic\n         table of elements"; }
+RESOURCE TBUF r_mendelevium_other { buf="- a metallic radioactive transuranic element\n- is synthesized by bombarding einsteinium with\n  alpha particles"; }
+RESOURCE TBUF r_mendelevium_other2 { buf="- 15 radioisotopes of mendelevium have been\n  characterized, with the most stable being\n  mendelevium-258 with a half-life of 51.5 days\n- there are no other known uses of mendelevium\n- only trace amounts of the element have ever been\n  produced"; }
+RESOURCE TBUF r_mendelevium_other3 { buf="- is a synthetic element\n- its symbol was formerly known as Mv"; }
+RESOURCE TBUF r_nobelium_general { buf="Name: nobelium \nSymbol: No\nAtomic number: 102\nCategory: actinides\nGroup: n/a\nPeriod: 7\nBlock: f\nAtomic weight: (259) g/mol\nElectrons per shell: 2, 8, 18, 32, 32, 8, 2\nCAS number: 10028-14-5"; }
+RESOURCE TBUF r_nobelium_physical { buf="Phase: solid\nDensity: unknown\nMelting point: unknown\nBoiling point: unknown"; }
+RESOURCE TBUF r_nobelium_atomic { buf="Crystal structure: unknown\nOxidation states: 2, 3\nElectronegativity: unknown"; }
+RESOURCE TBUF r_nobelium_name { buf="Comes from: Alfred Nobel\nMeaning: in honor of the Swedish chemist"; }
+RESOURCE TBUF r_nobelium_other { buf="- was first correctly identified in 1956 by\n  scientists at the Flerov Laboratory of Nuclear\n  Reactions in Dubna, Russia\n- was proposed with names joliotium and flerovium\n- the appearance of this element is unknown,\n  however it is most likely silvery-white or gray\n  and metallic"; }
+RESOURCE TBUF r_nobelium_other2 { buf="- if sufficient amounts of nobelium were produced,\n  it would pose a radiation hazard\n- seventeen radioisotopes of nobelium have been\n  characterized, with the most stable being\n  nobelium-259 with a half-life of 58 minutes\n- is a synthetic element and has no known uses"; }
+RESOURCE TBUF r_lawrencium_general { buf="Name: lawrencium \nSymbol: Lr\nAtomic number: 103\nCategory: actinides\nGroup: n/a\nPeriod: 7\nBlock: f\nAtomic weight: (262) g/mol\nElectrons per shell: 2, 8, 18, 32, 32, 8, 3\nCAS number: 22537-19-5"; }
+RESOURCE TBUF r_lawrencium_physical { buf="Phase: presumably a solid\nDensity: unknown\nMelting point: unknown\nBoiling point: unknown"; }
+RESOURCE TBUF r_lawrencium_atomic { buf="Crystal structure: unknown\nOxidation states: 3\nElectronegativity: unknown"; }
+RESOURCE TBUF r_lawrencium_name { buf="Comes from: Ernest O. Lawrence\nMeaning: in honor of the inventor of the\n         cyclotron"; }
+RESOURCE TBUF r_lawrencium_other { buf="- is a radioactive synthetic element\n- twelve isotopes of lawrencium have been\n  synthesized with lawrencium-262 being the\n  longest-lived and heaviest, with a half-life of\n  216 minutes"; }
+RESOURCE TBUF r_lawrencium_other2 { buf="- was produced by bombarding a three milligram\n  target composed of three isotopes of californium\n  with boron-10 and boron-11 ions\n- the appearance of this element is unknown,\n  however it is most likely silvery-white or gray\n  and metallic"; }
+RESOURCE TBUF r_lawrencium_other3 { buf="- if sufficient amounts of lawrencium were\n  produced, it would pose a radiation hazard\n- its symbol was formerly known as Lw\n- is a synthetic element and has no known uses"; }

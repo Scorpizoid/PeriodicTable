@@ -1,0 +1,36 @@
+// InfoDialogs.RSS
+//
+//
+
+NAME CHRO
+
+#include <eikon.rh>
+#include <eikcore.rsg>
+
+#include "PeriodicTable.hrh"
+
+RESOURCE RSS_SIGNATURE {  }
+
+/* Group 6 */
+RESOURCE TBUF r_chromium_general { buf="Name: chromium\nSymbol: Cr\nAtomic number: 24\nCategory: transition metals\nGroup: 6\nPeriod: 4\nBlock: d\nAtomic weight: 51.9961 g/mol\nElectrons per shell: 2, 8, 13, 1\nCAS number: 7440-47-3"; }
+RESOURCE TBUF r_chromium_physical { buf="Phase: solid\nDensity: 7.19 kg/l (near room temperature)\nMelting point: 2180 K (1857°C, 3465°F)\nBoiling point: 2944 K (2672°C, 4840°F)"; }
+RESOURCE TBUF r_chromium_atomic { buf="Crystal structure: cubic body centered\nOxidation states: 6, 5, 4, 3, 2, 1\nElectronegativity: 1.66 (Pauling scale)"; }
+RESOURCE TBUF r_chromium_name { buf="Comes from: chroma\nMeaning: the Greek word meaning color, because\n         of the many colorful compounds made from\n         it"; }
+RESOURCE TBUF r_chromium_other { buf="- is notable for its ability to form quintuple\n  covalent bonds\n- is a steely-gray, lustrous, hard metal that\n  takes a high polish and has a high melting point\n- the most notable use is in metallurgy (plating\n  and as alloy constituent)"; }
+RESOURCE TBUF r_molybdenum_general { buf="Name: molybdenum\nSymbol: Mo\nAtomic number: 42\nCategory: transition metals\nGroup: 6\nPeriod: 5\nBlock: d\nAtomic weight: 95.94 g/mol\nElectrons per shell: 2, 8, 18, 13, 1\nCAS number: 7439-98-7"; }
+RESOURCE TBUF r_molybdenum_physical { buf="Phase: solid\nDensity: 10.28 kg/l (near room temperature)\nMelting point: 2896 K (2623°C, 4753°F)\nBoiling point: 4912 K (4639°C, 8382°F)"; }
+RESOURCE TBUF r_molybdenum_atomic { buf="Crystal structure: cubic body centered\nOxidation states: 6, 5, 4, 3, 2, 1\nElectronegativity: 2.16 (Pauling scale)"; }
+RESOURCE TBUF r_molybdenum_name { buf="Comes from: molybdos\nMeaning: lead, as the ore molybdena (currently\n  molydbenite) was thought to be a lead ore"; }
+RESOURCE TBUF r_molybdenum_other { buf="- has the sixth-highest melting point of any\n  element, and for this reason it is often used in\n  high-strength steel alloys\n- is found in trace amounts in plants and animals,\n  although excess molybdenum can be toxic in some\n  animals"; }
+RESOURCE TBUF r_molybdenum_other2 { buf="- in a 70 kg (150 lb) human body, there is\n  approximately 9.3 mg molybdenum\n- is used in the manufacture of aircraft parts,\n  electrical contacts, industrial motors, and\n  filaments"; }
+RESOURCE TBUF r_tungsten_general { buf="Name: tungsten or wolfram\nSymbol: W\nAtomic number: 74\nCategory: transition metals\nGroup: 6\nPeriod: 6\nBlock: d\nAtomic weight: 183.84 g/mol\nElectrons per shell: 2, 8, 18, 32, 12, 2\nCAS number: 7440-33-7"; }
+RESOURCE TBUF r_tungsten_physical { buf="Phase: solid\nDensity: 19.25 kg/l (near room temperature)\nMelting point: 3695 K (3422°C, 6192°F)\nBoiling point: 5828 K (5555°C, 10031°F)"; }
+RESOURCE TBUF r_tungsten_atomic { buf="Crystal structure: cubic body centered\nOxidation states: 6, 5, 4, 3, 2, 1, 0, -1\nElectronegativity: 2.36 (Pauling scale)"; }
+RESOURCE TBUF r_tungsten_name { buf="Tungsten:\nComes from: tung sten (Swedish)\nMeaning: heavy stone\nWolfram:\nComes from: volf rahm (Swedish)\nMeaning: wolf's roth - a reference to the\n         large amounts of tin consumed when the\n         substance is extracted"; }
+RESOURCE TBUF r_tungsten_other { buf="- is a steel-gray metal that is often brittle and\n  hard to work\n- is an essential nutrient for some organisms\n  (fexample, enzymes called oxidoreductases use\n  tungsten in a way that is similar to molybdenum\n  by using it in a tungsten-pterin complex)"; }
+RESOURCE TBUF r_tungsten_other2 { buf="- is used in light bulbs, cathode-ray tubes, vacuum\n  tubes, heating elements and rocket nozzles\n- has the lowest coefficient of thermal expansion\n  of any pure metal"; }
+RESOURCE TBUF r_seaborgium_general { buf="Name: seaborgium\nSymbol: Sg\nAtomic number: 106\nCategory: transition metals\nGroup: 6\nPeriod: 7\nBlock: d\nAtomic weight: [271] g/mol\nElectrons per shell: 2, 8, 18, 32, 32, 12, 2\nCAS number: 54038-81-2"; }
+RESOURCE TBUF r_seaborgium_physical { buf="Phase: presumably a solid\nDensity: unknown\nMelting point: unknown\nBoiling point: unknown"; }
+RESOURCE TBUF r_seaborgium_atomic { buf="Crystal structure: unknown\nOxidation states: 6\nElectronegativity: unknown"; }
+RESOURCE TBUF r_seaborgium_name { buf="Comes from: Glenn T. Seaborg\nMeaning: a member of the American group who\n         participated in the discovery of several\n         actinides"; }
+RESOURCE TBUF r_seaborgium_other { buf="- a fully synthetic element\n- there are 11 known isotopes of seaborgium \n- its most stable isotope seaborgium-271 has a\n  half-life of 1.9 minutes"; }
